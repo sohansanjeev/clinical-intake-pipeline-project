@@ -36,4 +36,5 @@ clinical note:
 --- NOTE ---
 {note_text}
 --- END NOTE ---
-"""
+
+{format_instructions}"""

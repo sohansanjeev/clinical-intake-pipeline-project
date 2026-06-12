@@ -20,11 +20,21 @@ from typing import Optional
 
 
 class TriagePriority(str, Enum):
-    """Clinical urgency inferred from the note's symptom language and context."""
+    """Clinical urgency inferred from the note's symptom language and context.
+
+    Usage:
+        TriagePriority.HIGH.severity_score  # → 3
+        TriagePriority.LOW.label            # → "Low"
+        sorted(patients, key=lambda p: p.triage_priority.severity_score)
+    """
     LOW = "low"
     MEDIUM = "medium"
     HIGH = "high"
 
+    @property
+    def severity_score(self) -> int:
+        """Numeric severity for sorting/filtering (3=HIGH, 2=MEDIUM, 1=LOW)."""
+        return {"low": 1, "medium": 2, "high": 3}[self.value]
 
 class PatientDemographics(BaseModel):
     """Patient-level attributes extractable from an admission note.

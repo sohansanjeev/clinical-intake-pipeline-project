@@ -5,12 +5,13 @@ Upload a processed CSV to view the data with paginated tables,
 triage filtering, and detailed patient cards.
 """
 
-import re
 from io import StringIO
 from typing import Any
 
 import pandas as pd
 import streamlit as st
+
+from clinical_intake.utils import normalize_age, normalize_sex
 
 st.set_page_config(page_title="Clinical Intake Dashboard", layout="wide")
 
@@ -46,18 +47,14 @@ def _read_csv(contents: bytes) -> pd.DataFrame:
 
 
 def _format_sex(val: Any) -> str:
-    v = str(val).strip().lower() if val else ""
-    if v in ("m", "male"): return "M"
-    if v in ("f", "female"): return "F"
-    return v or "—"
+    """Format sex for display. Thin wrapper around normalize_sex."""
+    result = normalize_sex(val)
+    return result if result else "—"
 
 
 def _format_age(val: Any) -> str:
-    v = str(val).strip() if val else ""
-    if not v or v.lower() in ("[redacted]", "___", "nan", "none", "n/a", "-", "unk"):
-        return ""
-    m = re.search(r"\b(\d{1,3})\b", v)
-    return m.group(1) if m else ""
+    """Format age for display. Delegates to normalize_age."""
+    return normalize_age(val)
 
 
 def _filter_data(df: pd.DataFrame, triage: str) -> pd.DataFrame:

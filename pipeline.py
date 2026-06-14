@@ -12,7 +12,6 @@ Usage:
 import csv
 import os
 import random
-import re
 from enum import Enum
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -20,11 +19,11 @@ from typing import Any, Optional
 
 from langchain_openai import ChatOpenAI
 from langchain_core.runnables import Runnable
-
-from clinical_intake.chain import build_chain
 from pydantic import BaseModel
 
+from clinical_intake.chain import build_chain
 from clinical_intake.schemas import ClinicalIntake
+from clinical_intake.utils import normalize_age, normalize_sex
 
 
 def _serialize(val: Any) -> str:
@@ -89,7 +88,7 @@ def _flatten_intake(result: ClinicalIntake) -> dict[str, str]:
                 if isinstance(sub_value, list):
                     flat[col] = "; ".join(str(v) for v in sub_value) if sub_value else ""
                 else:
-                    val = _normalize_sex(sub_value) if sub_key == "sex" else _normalize_age(sub_value) if sub_key == "age" else _serialize(sub_value)
+                    val = normalize_sex(sub_value) if sub_key == "sex" else normalize_age(sub_value) if sub_key == "age" else _serialize(sub_value)
                     flat[col] = val
         elif isinstance(value, list):
             flat[key] = "; ".join(str(v) for v in value) if value else ""
@@ -101,28 +100,6 @@ def _flatten_intake(result: ClinicalIntake) -> dict[str, str]:
         else:
             flat[key] = _serialize(value)
     return flat
-
-
-def _normalize_sex(value: Any) -> str:
-    """Normalize sex to M or F. Handles Male/Female/male/female/M/F."""
-    v = str(value).strip().lower() if value else ""
-    if v in ("m", "male"):
-        return "M"
-    if v in ("f", "female"):
-        return "F"
-    return value or ""
-
-
-def _normalize_age(value: Any) -> str:
-    """Extract just the number from an age string.
-
-    Handles formats like '45-year-old', '30 yo male', '80', None, etc.
-    """
-    v = str(value).strip() if value else ""
-    if not v or v.lower() in ("___", "[redacted]", "nan", "none", "n/a", "-", "unk"):
-        return ""
-    m = re.search(r"\b(\d{1,3})\b", v)
-    return m.group(1) if m else ""
 
 
 def _process_one_row(chain: Runnable, row: dict[str, Any]) -> tuple[dict[str, str], str]:

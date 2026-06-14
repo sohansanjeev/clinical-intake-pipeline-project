@@ -39,6 +39,17 @@ class FakeChatModel(Runnable):
         """Return a fixed AIMessage regardless of input."""
         return AIMessage(content=self.response)
 
+    def with_structured_output(self, schema: Any, **kwargs: Any) -> Runnable:
+        """Stub: returns a chain that invokes self then parses the response."""
+        from langchain_core.runnables import RunnableLambda
+        from clinical_intake.schemas import ClinicalIntake
+
+        def _parse(input: Any) -> ClinicalIntake:
+            msg = self.invoke(input)
+            return schema.model_validate_json(msg.content)
+
+        return RunnableLambda(_parse)
+
 
 @pytest.fixture
 def fake_llm():

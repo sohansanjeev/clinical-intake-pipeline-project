@@ -14,7 +14,6 @@ import os
 
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import PydanticOutputParser
 from langchain_core.runnables import Runnable
 
 from clinical_intake.schemas import ClinicalIntake
@@ -33,20 +32,17 @@ def build_chain(llm: ChatOpenAI) -> Runnable:
         An LCEL Runnable that accepts a dict with a "note_text" key
         and returns a ClinicalIntake instance.
     """
-    parser = PydanticOutputParser(pydantic_object=ClinicalIntake)
-    
     prompt = ChatPromptTemplate.from_messages([
         ("system", SYSTEM_PROMPT),
         ("human", HUMAN_PROMPT_TEMPLATE),
     ])
-    
-    # Lock format_instructions into the prompt at build time
-    # so they don't have to be passed on every invocation
-    prompt_with_instructions = prompt.partial(
-        format_instructions=parser.get_format_instructions()
+
+    structured_llm = llm.with_structured_output(
+        schema=ClinicalIntake,
+        method="json_schema",
     )
-    
-    chain = prompt_with_instructions | llm | parser
+
+    chain = prompt | structured_llm
     return chain
 
 

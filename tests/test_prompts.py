@@ -20,13 +20,12 @@ class TestHumanPromptTemplate:
     def test_has_note_text_placeholder(self):
         assert "{note_text}" in HUMAN_PROMPT_TEMPLATE
 
-    def test_has_format_instructions_placeholder(self):
-        assert "{format_instructions}" in HUMAN_PROMPT_TEMPLATE
+    def test_no_format_instructions_in_prompt(self):
+        """With with_structured_output, the schema is sent via API, not prompt."""
+        assert "{format_instructions}" not in HUMAN_PROMPT_TEMPLATE
 
-    def test_renders_with_variables(self):
+    def test_renders_with_note_text(self):
         rendered = HUMAN_PROMPT_TEMPLATE.format(
             note_text="test note",
-            format_instructions="return JSON",
         )
         assert "test note" in rendered
-        assert "return JSON" in rendered

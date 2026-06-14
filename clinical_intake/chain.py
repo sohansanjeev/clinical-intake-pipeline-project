@@ -1,9 +1,9 @@
 """
-LangChain extraction pipeline — prompt → LLM → Pydantic parser.
+LangChain extraction pipeline — prompt → structured output LLM.
 
 Builds an LCEL chain that takes a raw note text, sends it through the
-prompt template to DeepSeek (openai-compatible API), and parses the
-output into a ClinicalIntake Pydantic model.
+prompt template to DeepSeek (openai-compatible API), and uses the LLM's
+native JSON schema mode to produce a ClinicalIntake Pydantic model.
 
 Exports:
     build_chain: Factory that constructs the pipeline given an LLM instance.

@@ -41,20 +41,16 @@ the same work completes in ~20s — a 3.5× speedup with no accuracy loss.
 
 ### Sex and age normalization
 
-Converting Male/Female → M/F happens in `_flatten_intake()` rather than the
-dashboard. This means any consumer reading the CSV directly gets clean data
-without needing to re-normalize.
-LLMs return age in inconsistent formats (`45-year-old`, `30`, `80 yo`).
-Rather than trust the LLM to format consistently, `_normalize_age()`
-extracts just the number via `re.search(r"\b(\d{1,3})\b")` at the pipeline
-level. The dashboard also applies the same cleaning as a safety net.
+Converting Male/Female → M/F and extracting age numbers (45-year-old → 45)
+happens at the pipeline level in shared utility functions. The dashboard
+imports the same functions rather than duplicating the logic.
 
 ### Single-file Streamlit dashboard
 
 Streamlit's multi-page mode generates an automatic sidebar navigation menu.
 Using conditional rendering in a single file (`app.py`) gives full control
-over the layout. Allows for a clean landing page with no sidebar, then a
-sidebar-only dashboard view after upload.
+over the layout — a clean landing page with no sidebar, then a sidebar-only
+dashboard view after upload.
 
 ### Random patient IDs
 
@@ -74,9 +70,8 @@ zero-cost.
 - System prompt instructs `null` for missing data to prevent hallucination
 - Triage rubric uses symptom language: active chest pain / suicidal ideation
   → HIGH, vague complaints → LOW
-- `PydanticOutputParser` validates structure — if the LLM returns malformed
-  JSON, the error is caught and recorded in the `error` column instead of
-  crashing the batch
+- Uses `with_structured_output(method="json_schema")` to enforce the output
+  schema at the API level rather than parsing free-text JSON
 
 ## Known Limitations
 
@@ -121,7 +116,7 @@ python -m pipeline data/age_demo.csv data/age_demo_output.csv --concurrent 1
 
 This runs 3 synthetic notes against the real LLM (`data/age_demo_output.csv`)
 and confirms age is captured. The pipeline normalizes age to a number-only
-string via `_normalize_age()` (regex extracts the first 1-3 digit sequence):
+string via `normalize_age()` (regex extracts the first 1-3 digit sequence):
 
 | Input text                         | Raw LLM output | Stored as |
 |------------------------------------|----------------|-----------|
@@ -134,18 +129,19 @@ writing to CSV. No cleaning needed in downstream consumers.
 
 ## Evaluation
 
-Extraction quality was manually reviewed on 10 rows from `data/sample.csv`
-(`data/sample_evaluate_output.csv`). Key results:
+Extraction quality was spot-checked on 10 rows from `data/sample.csv`
+(`data/sample_evaluate_output.csv`). Results are indicative, not
+statistically significant — 10 rows is too small for formal accuracy claims.
 
-| Field        | Accuracy | Notes                                |
-|--------------|----------|--------------------------------------|
-| Sex          | 10/10    | Normalized to M/F at pipeline level  |
-| Service      | 10/10    |                                      |
-| Chief Compl. | 10/10    |                                      |
-| Triage       | 8-9/10   | All clinically reasonable            |
-| Age          | 10/10    | Correctly empty — redacted in source |
-| PMH / Meds   | 10/10    | Well extracted                       |
-| Allergies    | 9/10     | 1 miss (omeprazole)                  |
+| Field        | Correct | Notes                                |
+|--------------|---------|--------------------------------------|
+| Sex          | 10/10   | Normalized to M/F at pipeline level  |
+| Service      | 10/10   |                                      |
+| Chief Compl. | 10/10   |                                      |
+| Triage       | 8-9/10  | All clinically reasonable            |
+| Age          | 10/10   | Correctly empty — redacted in source |
+| PMH / Meds   | 10/10   | Well extracted                       |
+| Allergies    | 9/10    | 1 miss (omeprazole)                  |
 
 Exploratory analysis plots generated from the 100-row output are available in
 [`plots/`](plots/?v=2). These include triage distribution, triage by service,

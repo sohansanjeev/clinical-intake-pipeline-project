@@ -16,6 +16,7 @@ from enum import Enum
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Any, Optional
+from functools import cache
 
 from langchain_openai import ChatOpenAI
 from langchain_core.runnables import Runnable
@@ -38,18 +39,12 @@ def _serialize(val: Any) -> str:
     return str(val)
 
 
-_FLAT_COLUMNS_CACHE: list[str] | None = None
-
-
+@cache
 def _get_flat_columns() -> list[str]:
     """Derive flattened column names from the ClinicalIntake schema.
 
-    Results are cached after first call since the schema is static.
+    Cached via ``@functools.cache`` since the schema is static.
     """
-    global _FLAT_COLUMNS_CACHE
-    if _FLAT_COLUMNS_CACHE is not None:
-        return _FLAT_COLUMNS_CACHE
-
     columns = []
     for field_name, field_info in ClinicalIntake.model_fields.items():
         # Check if the field's annotation is a nested BaseModel
@@ -68,7 +63,6 @@ def _get_flat_columns() -> list[str]:
                 columns.append(f"{field_name}_{sub_name}")
         else:
             columns.append(field_name)
-    _FLAT_COLUMNS_CACHE = columns
     return columns
 
 

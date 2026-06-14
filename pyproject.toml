@@ -1,0 +1,16 @@
+[project]
+name = "clinical-intake"
+version = "0.1.0"
+description = "LLM-powered structured data extraction from MIMIC-IV clinical notes"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain-openai",
+    "langchain-core",
+    "openai",
+    "pydantic>=2.0",
+    "python-dotenv",
+    "streamlit>=1.41",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+]

@@ -6,3 +6,4 @@ dev/
 __pycache__/
 .pytest_cache/
 *.pyc
+AGENTS.md

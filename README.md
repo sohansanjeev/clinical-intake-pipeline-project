@@ -23,49 +23,55 @@ triage filtering, and patient detail cards.
 ## Architecture & Design Decisions
 
 ### `csv.reader` over pandas
+
 MIMIC notes contain embedded newlines inside quoted CSV fields. A naive
 `pd.read_csv()` splits on those newlines and corrupts rows. Python's
 `csv.DictReader` handles quoted fields correctly.
 
 ### `summary` column as LLM input
+
 Each note has a `text` (full note) and a `summary` (LLM-generated summary)
 column. Feeding the summary instead of the full text is ~2× faster and
 produces equivalent extraction quality. Both columns are preserved in the
 output for reference.
 
 ### Parallel processing
+
 Processing 100 rows sequentially takes ~70s. With `ThreadPoolExecutor(5)`
 the same work completes in ~20s — a 3.5× speedup with no accuracy loss.
 
-### Sex normalization at pipeline level
+### Sex and age normalization
+
 Converting Male/Female → M/F happens in `_flatten_intake()` rather than the
 dashboard. This means any consumer reading the CSV directly gets clean data
 without needing to re-normalize.
-
-### Age normalization via regex post-processing
 LLMs return age in inconsistent formats (`45-year-old`, `30`, `80 yo`).
 Rather than trust the LLM to format consistently, `_normalize_age()`
 extracts just the number via `re.search(r"\b(\d{1,3})\b")` at the pipeline
 level. The dashboard also applies the same cleaning as a safety net.
 
 ### Single-file Streamlit dashboard
+
 Streamlit's multi-page mode generates an automatic sidebar navigation menu.
 Using conditional rendering in a single file (`app.py`) gives full control
-over the layout — a clean landing page with no sidebar, then a sidebar-only
+over the layout. Allows for a clean landing page with no sidebar, then a sidebar-only
 dashboard view after upload.
 
 ### Random patient IDs
+
 IDs are random 6-digit zero-padded numbers (`random.randint(1, 999999)`)
 rather than sequential. This avoids implying that row order reflects
 admission order or severity.
 
 ### Custom `FakeChatModel` for tests
+
 LangChain 1.2.7 (the version resolved by the project dependencies) doesn't
 export `FakeMessagesListLLM`. Tests use a custom `FakeChatModel(Runnable)`
 that returns a fixed JSON response. This keeps all 42 tests free and
-zero-cost — no API calls, no keys needed.
+zero-cost.
 
 ### Prompt engineering
+
 - System prompt instructs `null` for missing data to prevent hallucination
 - Triage rubric uses symptom language: active chest pain / suicidal ideation
   → HIGH, vague complaints → LOW
@@ -119,11 +125,11 @@ This runs 3 synthetic notes against the real LLM (`data/age_demo_output.csv`)
 and confirms age is captured. The pipeline normalizes age to a number-only
 string via `_normalize_age()` (regex extracts the first 1-3 digit sequence):
 
-| Input text                         | Raw LLM output   | Stored as |
-|------------------------------------|------------------|-----------|
-| `45-year-old female with headache` | `45-year-old`    | `45` ✅   |
-| `30 yo male with ACL tear`         | `30`             | `30` ✅   |
-| `80-year-old woman with syncope`   | `80`             | `80` ✅   |
+| Input text                         | Raw LLM output | Stored as |
+| ---------------------------------- | -------------- | --------- |
+| `45-year-old female with headache` | `45-year-old`  | `45` ✅   |
+| `30 yo male with ACL tear`         | `30`           | `30` ✅   |
+| `80-year-old woman with syncope`   | `80`           | `80` ✅   |
 
 Post-processing normalizes all age formats at the pipeline level before
 writing to CSV. No cleaning needed in downstream consumers.
@@ -133,12 +139,12 @@ writing to CSV. No cleaning needed in downstream consumers.
 Extraction quality was manually reviewed on 10 rows from `data/sample.csv`
 (`data/sample_evaluate_output.csv`). Key results:
 
-| Field         | Accuracy | Notes                                |
-|---------------|----------|--------------------------------------|
-| Sex           | 10/10    | Normalized to M/F at pipeline level  |
-| Service       | 10/10    |                                      |
-| Chief Compl.  | 10/10    |                                      |
-| Triage        | 8-9/10   | All clinically reasonable            |
-| Age           | 10/10    | Correctly empty — redacted in source |
-| PMH / Meds    | 10/10    | Well extracted                       |
-| Allergies     | 9/10     | 1 miss (omeprazole)                  |
+| Field        | Accuracy | Notes                                |
+| ------------ | -------- | ------------------------------------ |
+| Sex          | 10/10    | Normalized to M/F at pipeline level  |
+| Service      | 10/10    |                                      |
+| Chief Compl. | 10/10    |                                      |
+| Triage       | 8-9/10   | All clinically reasonable            |
+| Age          | 10/10    | Correctly empty — redacted in source |
+| PMH / Meds   | 10/10    | Well extracted                       |
+| Allergies    | 9/10     | 1 miss (omeprazole)                  |

@@ -1,7 +1,6 @@
 # Clinical Intake Extraction Pipeline
 
 LLM-powered structured data extraction from MIMIC-IV clinical admission notes.
-Built for the Vector Institute FastLane MLA scholarship portfolio.
 
 ## Pipeline Overview
 
@@ -104,8 +103,7 @@ streamlit run app.py
 ## Tests
 
 ```bash
-cd /Users/noxial/Documents/code/projects/6-14-ML
-/opt/anaconda3/envs/DL_proj/bin/python -m pytest tests/ -v
+python -m pytest tests/ -v
 ```
 
 42 tests, zero API calls (LLM is mocked).

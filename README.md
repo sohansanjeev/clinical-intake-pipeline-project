@@ -54,8 +54,8 @@ level. The dashboard also applies the same cleaning as a safety net.
 
 Streamlit's multi-page mode generates an automatic sidebar navigation menu.
 Using conditional rendering in a single file (`app.py`) gives full control
-over the layout. Allows for a clean landing page with no sidebar, then a sidebar-only
-dashboard view after upload.
+over the layout. Allows for a clean landing page with no sidebar, then a
+sidebar-only dashboard view after upload.
 
 ### Random patient IDs
 
@@ -126,7 +126,7 @@ and confirms age is captured. The pipeline normalizes age to a number-only
 string via `_normalize_age()` (regex extracts the first 1-3 digit sequence):
 
 | Input text                         | Raw LLM output | Stored as |
-| ---------------------------------- | -------------- | --------- |
+|------------------------------------|----------------|-----------|
 | `45-year-old female with headache` | `45-year-old`  | `45` ✅   |
 | `30 yo male with ACL tear`         | `30`           | `30` ✅   |
 | `80-year-old woman with syncope`   | `80`           | `80` ✅   |
@@ -140,7 +140,7 @@ Extraction quality was manually reviewed on 10 rows from `data/sample.csv`
 (`data/sample_evaluate_output.csv`). Key results:
 
 | Field        | Accuracy | Notes                                |
-| ------------ | -------- | ------------------------------------ |
+|--------------|----------|--------------------------------------|
 | Sex          | 10/10    | Normalized to M/F at pipeline level  |
 | Service      | 10/10    |                                      |
 | Chief Compl. | 10/10    |                                      |
@@ -148,3 +148,8 @@ Extraction quality was manually reviewed on 10 rows from `data/sample.csv`
 | Age          | 10/10    | Correctly empty — redacted in source |
 | PMH / Meds   | 10/10    | Well extracted                       |
 | Allergies    | 9/10     | 1 miss (omeprazole)                  |
+
+Exploratory analysis plots generated from the 100-row output are available in
+[`plots/`](plots/). These include triage distribution, triage by service,
+sex distribution, top complaints, top medications, top conditions, triage by
+sex, and service volume.

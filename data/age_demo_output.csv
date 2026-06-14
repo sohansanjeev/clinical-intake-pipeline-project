@@ -1,0 +1,25 @@
+patient_id,text,summary,demographics_age,demographics_sex,admission_service,admission_admission_date,admission_discharge_date,clinical_context_chief_complaint,clinical_context_history_of_present_illness,clinical_context_past_medical_history,clinical_context_medications,clinical_context_allergies,triage_priority,raw_note_snippet,error
+689636,"**Discharge Summary**
+**Sex:** Female
+**Age:** 45-year-old female
+**Service:** Medicine
+**Chief Complaint:** Headache
+**History of Present Illness:** Patient is a 45-year-old female with migraine history presenting with severe headache.
+**Past Medical History:** Migraines
+**Discharge Diagnosis:** Migraine headache",45-year-old female with migraine history presenting with severe headache. Diagnosed with migraine headache.,45,F,,,,severe headache,Patient with migraine history presenting with severe headache. Diagnosed with migraine headache.,migraine,,,medium,45-year-old female with migraine history presenting with severe headache. Diagnosed with migraine headache.,
+348044,"**Discharge Summary**
+**Sex:** Male
+**Age:** 30 yo male
+**Service:** Surgery
+**Chief Complaint:** Right knee pain
+**History of Present Illness:** 30 yo male with ACL tear presenting for surgical repair.
+**Past Medical History:** None
+**Discharge Diagnosis:** ACL tear, right knee","30 yo male with ACL tear presenting for surgical repair. Diagnosed with ACL tear, right knee.",30,M,,,,ACL tear,"30 yo male with ACL tear presenting for surgical repair. Diagnosed with ACL tear, right knee.",,,,low,"30 yo male with ACL tear presenting for surgical repair. Diagnosed with ACL tear, right knee.",
+319322,"**Discharge Summary**
+**Sex:** Female
+**Age:** 80-year-old woman
+**Service:** Medicine
+**Chief Complaint:** Syncope
+**History of Present Illness:** 80-year-old woman with CHF and AFib who collapsed at home.
+**Past Medical History:** CHF, Atrial fibrillation
+**Discharge Diagnosis:** Syncope, likely cardiogenic","80-year-old woman with CHF and AFib who collapsed at home. Diagnosed with syncope, likely cardiogenic.",80,F,,,,collapsed at home,"80-year-old woman with CHF and AFib who collapsed at home. Diagnosed with syncope, likely cardiogenic.",CHF; AFib,,,high,"80-year-old woman with CHF and AFib who collapsed at home. Diagnosed with syncope, likely cardiogenic.",

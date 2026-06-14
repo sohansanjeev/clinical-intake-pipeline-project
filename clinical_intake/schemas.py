@@ -24,7 +24,6 @@ class TriagePriority(str, Enum):
 
     Usage:
         TriagePriority.HIGH.severity_score  # → 3
-        TriagePriority.LOW.label            # → "Low"
         sorted(patients, key=lambda p: p.triage_priority.severity_score)
     """
     LOW = "low"

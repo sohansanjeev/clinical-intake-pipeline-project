@@ -1,5 +1,5 @@
-text,summary
-" 
+patient_id,text,summary,demographics_age,demographics_sex,admission_service,admission_admission_date,admission_discharge_date,clinical_context_chief_complaint,clinical_context_history_of_present_illness,clinical_context_past_medical_history,clinical_context_medications,clinical_context_allergies,triage_priority,raw_note_snippet,error
+609780," 
 Name:  ___                     Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -308,8 +308,99 @@ ___
 - Continue taking prescribed medications daily, follow a low-sodium diet, and attend follow-up appointments with Dr. [Redacted] in the liver clinic for further screening and procedures. Contact the medical team if any issues arise.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Medicine,,,Worsening abdominal distension and pain,"Patient with HCV cirrhosis complicated by ascites, HIV on ART, history of IVDU, COPD, bipolar disorder, and PTSD presented with worsening abdominal distension over the past week. She had self-discontinued diuretics (Lasix and Spironolactone) weeks ago and does not follow a sodium-restricted diet. No significant edema, SOB, or orthopnea reported. Recent food poisoning episode resolved. Noted gum bleeding but no other significant bleeding symptoms. Brief confusion episode noted in ED.","HCV Cirrhosis; No abnormal Pap smears; Benign breast calcification removal; HIV (followed by Dr. [Redacted]); COPD; Past smoker; Skin cancer (pending complete removal); Forehead lesion (biopsied, results pending); Hypoechoic liver lesion (monitored by MRI); Anus dysplasia; Bipolar disorder (mild, manic) and PTSD; History of cocaine and heroin use",Furosemide 20 mg PO daily; Spironolactone 50 mg PO daily; Albuterol Inhaler PRN; Raltegravir 400 mg PO BID; Emtricitabine-Tenofovir (Truvada) 1 tab PO daily; Nicotine Patch 14 mg daily; Ipratropium Bromide Neb PRN,,medium,"--- NOTE ---
+**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Female
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+- **Service:** Medicine
+- **Attending:** [Redacted]
+
+**Chief Complaint:**
+- Worsening abdominal distension and pain
+
+**Major Procedure:**
+- Paracentesis
+
+**History of Present Illness:**
+- Patient with HCV cirrhosis complicated by ascites, HIV on ART, history of IVDU, COPD, bipolar disorder, and PTSD presented with worsening abdominal distension over the past week. She had self-discontinued diuretics (Lasix and Spironolactone) weeks ago and does not follow a sodium-restricted diet. No significant edema, SOB, or orthopnea reported. Recent food poisoning episode resolved. Noted gum bleeding but no other significant bleeding symptoms. Brief confusion episode noted in ED.
+
+**Past Medical History:**
+1. HCV Cirrhosis
+2. No abnormal Pap smears
+3. Benign breast calcification removal
+4. HIV (followed by Dr. [Redacted])
+5. COPD
+6. Past smoker
+7. Skin cancer (pending complete removal)
+8. Forehead lesion (biopsied, results pending)
+9. Hypoechoic liver lesion (monitored by MRI)
+10. Anus dysplasia
+11. Bipolar disorder (mild, manic) and PTSD
+12. History of cocaine and heroin use
+
+**Social History:**
+- Limited contact with family, last alcohol consumption two months ago, quit smoking a few years ago, no recent drug use.
+
+**Physical Exam on Admission:**
+- Vitals: 98.1°F, 107/61 mmHg, 78 bpm, 18 breaths/min, 97% RA
+- General: No acute distress
+- HEENT: Clear, anicteric sclera
+- Neck: Supple, no lymphadenopathy
+- CV: Regular rhythm, no murmurs
+- Lungs: Clear, prolonged expiratory phase
+- Abdomen: Distended, mild tenderness, positive flank dullness
+- Extremities: Warm, well-perfused, no edema, clubbing present
+- Neuro: Alert, oriented, normal conversation, intact cranial nerves
+
+**Pertinent Results:**
+- Labs: Elevated ALT/AST, total bilirubin 1.6, low platelets (71), INR 1.6
+- Imaging: CXR normal, U/S showed cirrhosis, portal hypertension, cholelithiasis
+
+**Hospital Course:**
+- Presented with worsening abdominal distension and confusion due to non-compliance with medication and diet. Managed with diuretics (Furosemide 40 mg and Spironolactone 50 mg). No signs of heart failure. Scheduled follow-up with PCP and liver clinic for outpatient screening.
+
+**Medications on Admission:**
+1. Furosemide 20 mg PO daily
+2. Spironolactone 50 mg PO daily
+3. Albuterol Inhaler PRN
+4. Raltegravir 400 mg PO BID
+5. Emtricitabine-Tenofovir (Truvada) 1 tab PO daily
+6. Nicotine Patch 14 mg daily
+7. Ipratropium Bromide Neb PRN
+
+**Discharge Medications:**
+1. Albuterol Inhaler PRN
+2. Emtricitabine-Tenofovir (Truvada) 1 tab PO daily
+3. Furosemide 40 mg PO daily
+4. Ipratropium Bromide Neb PRN
+5. Nicotine Patch 14 mg daily
+6. Raltegravir 400 mg PO BID
+7. Spironolactone 50 mg PO daily
+8. Acetaminophen 500 mg PO PRN
+
+**Discharge Disposition:**
+- Home
+
+**Discharge Diagnosis:**
+- Ascites from Portal Hypertension
+
+**Discharge Condition:**
+- Mental Status: Clear and coherent
+- Level of Consciousness: Alert and interactive
+- Activity Status: Ambulatory, independent
+
+**Discharge Instructions:**
+- Continue taking prescribed medications daily, follow a low-sodium diet, and attend follow-up appointments with Dr. [Redacted] in the liver clinic for further screening and procedures. Contact the medical team if any issues arise.
+
+**Follow-up Instructions:**
+- [Redacted]
+--- END NOTE ---",
+606147," 
 Name:  ___                    Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -658,8 +749,75 @@ ___
 - Continue physical therapy at home
 
 **Summary:**
-Patient was admitted for visual hallucinations and worsening gait. Managed with medication adjustments and physical therapy recommendations. Discharged home with new medication (Seroquel) and home physical therapy."
-" 
+Patient was admitted for visual hallucinations and worsening gait. Managed with medication adjustments and physical therapy recommendations. Discharged home with new medication (Seroquel) and home physical therapy.",,Male,Medicine,,,Visual hallucinations,"Male with [Redacted] disease, dyslipidemia, and history of prostate cancer (s/p prostatectomy) presented with worsening gait, falls, and visual hallucinations. Neurologist increased Mirapex dosage, which led to hallucinations and confusion. Despite dose adjustment, symptoms persisted, leading to ED referral.",[Redacted] disease; dyslipidemia; history of prostate cancer; [Redacted] Body Dementia,Rasagiline 1 mg PO daily; Pramipexole 0.625 mg PO TID; Rivastigmine 9.5 mg/24 hr transdermal daily; Pravastatin 40 mg PO QPM; Cyanocobalamin PO daily; Loratadine 10 mg PO daily; QUEtiapine Fumarate 25 mg PO QHS,,medium,"**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+- **Date of Birth:** [Redacted]
+- **Sex:** Male
+- **Service:** Medicine
+- **Attending:** [Redacted]
+- **Allergies:** No Known Allergies
+
+**Chief Complaint:**
+- Visual hallucinations
+
+**History of Present Illness:**
+- Male with [Redacted] disease, dyslipidemia, and history of prostate cancer (s/p prostatectomy) presented with worsening gait, falls, and visual hallucinations. Neurologist increased Mirapex dosage, which led to hallucinations and confusion. Despite dose adjustment, symptoms persisted, leading to ED referral.
+
+**Physical Exam:**
+- **Admission:** Alert, interactive, no acute distress. Notable for cogwheeling in upper extremities, increased tone in lower extremities.
+- **Discharge:** No acute distress, talking quietly, regular cardiac rhythm, clear lungs, non-tender abdomen, normal extremities, and neurologically intact.
+
+**Pertinent Results:**
+- **Admission Labs:** Na 132, K 5.8 (hemolyzed), normal CBC, negative tox screen, normal LFTs.
+- **Imaging:** CT Head - No acute intracranial abnormality. Chest X-ray - Mild atelectasis, age-indeterminate thoracic vertebral compression deformity.
+- **Discharge Labs:** Na 140, K 4.0, normal CBC.
+
+**Acute/Active Issues:**
+- [Redacted] disease
+- [Redacted] Body Dementia
+- Visual hallucinations managed with Seroquel
+
+**Medications on Admission:**
+1. Rasagiline 1 mg PO daily
+2. Pramipexole 0.625 mg PO TID
+3. Rivastigmine 9.5 mg/24 hr transdermal daily
+4. Pravastatin 40 mg PO QPM
+5. Cyanocobalamin PO daily
+6. Loratadine 10 mg PO daily
+
+**Discharge Medications:**
+1. QUEtiapine Fumarate 25 mg PO QHS
+2. Loratadine 10 mg PO daily
+3. Pramipexole 0.625 mg PO TID
+4. Pravastatin 40 mg PO QPM
+5. Rasagiline 1 mg PO daily
+6. Rivastigmine 9.5 mg/24 hr transdermal daily
+
+**Discharge Disposition:**
+- Home with home physical therapy
+
+**Discharge Diagnosis:**
+- [Redacted] Dementia
+
+**Discharge Condition:**
+- Mental Status: Confused at times
+- Level of Consciousness: Alert and interactive
+
+**Discharge Instructions:**
+- Continue all medications and follow-up appointments.
+
+**Follow-up Instructions:**
+- Monitor visual hallucinations on Seroquel
+- Continue physical therapy at home
+
+**Summary:**
+Patient was admitted for visual hallucinations and worsening gait. Managed with medication adjustments and physical therapy recommendations. Discharged home with new medication (Seroquel) and home physical therapy.",
+860058," 
 Name:  ___                 Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -904,8 +1062,8 @@ ___
 - Patient was hospitalized for difficulty swallowing. Endoscopy was normal, biopsies were taken, and results are pending. A barium swallow test is recommended as an outpatient.
 
 **Follow-up Instructions:**
-- Await biopsy results and follow up as instructed."
-" 
+- Await biopsy results and follow up as instructed.",,Female,Medicine,,,Dysphagia,"Patient with anxiety and several years of dysphagia, presenting with worsened foreign body sensation in the throat. She has been on a pureed diet for the last 10 days due to the sensation of food getting stuck in her neck.",GERD; Hypercholesterolemia; Kidney stones; Mitral valve prolapse; Uterine fibroids; Osteoporosis; Migraine headaches,Omeprazole 20 mg PO BID,,medium,,
+625354," 
 Name:  ___                      Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -1195,8 +1353,8 @@ ___
 - Emergency Contact: [Redacted] (wife)
 
 **Best wishes,**
-- Your [Redacted] Care Team"
-" 
+- Your [Redacted] Care Team",,M,Medicine,,,Right flank bruising and pain following a fall,"Patient with a history of mild factor VIII deficiency presented with right neck swelling after a snowboarding accident, resulting in loss of consciousness. Initial imaging showed no intracranial hemorrhage but revealed a hematoma in the right platysma muscle and right shoulder. Hemoglobin levels decreased from 13.2 to 9.9 over several days. A CTAP showed a muscular hemorrhage along the flank but no retroperitoneal bleed. The patient received IV DDAVP and was admitted for further management.",Mild factor VIII deficiency,Acetaminophen 1000 mg PO Q8H for pain; Desmopressin Nasal [Redacted] mcg NAS PRN for bleeding,,medium,,
+178307," 
 Name:  ___                     Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -1401,8 +1559,8 @@ ___
 - Follow up with Dr. [Redacted] in 3 weeks.
 
 **Follow-up Instructions:**
-- Call Dr. [Redacted] to set up a follow-up appointment and for any urological questions."
-" 
+- Call Dr. [Redacted] to set up a follow-up appointment and for any urological questions.",,Female,Urology,,,Renal mass,[Redacted]-year-old healthy female with an incidental finding of a right renal mass suspicious for RCC following an MRI on [Redacted].,Nonspecific right axis deviation; Cesarean section,,,medium,,
+273890," 
 Name:  ___               Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -1752,8 +1910,8 @@ ___
 **Follow-up Instructions:**
 - [Redacted]
 
-**Thank you for choosing [Hospital Name].**"
-" 
+**Thank you for choosing [Hospital Name].**",,Male,Medicine,[Redacted],[Redacted],Epistaxis,"Patient with history of AAA repair complicated by MI, hypertension, and hyperlipidemia presented with nasal fractures and epistaxis after a fall. Persistent nosebleed managed with RhinoRockets. Brief hypotensive and bradycardic episode with transient loss of consciousness noted.",AAA repair complicated by MI; Hypertension; Hyperlipidemia; Peripheral vascular disease,Clopidogrel 75 mg PO DAILY; Acetaminophen 650 mg PO Q8H PRN pain; Aspirin 81 mg PO DAILY (30 Days); Metoprolol Tartrate 75 mg PO TID; Atorvastatin 40 mg PO QPM; Oxymetazoline nasal spray PRN nosebleed,,high,,
+155764," 
 Name:  ___.          Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -2133,8 +2291,8 @@ ___
 - Follow-up appointment with Dr. [Redacted] in 1 week.
 
 **Follow-up Instructions:**
-- Blood work to be done at [Location] in the Atrium Suite or on the sixth floor, 8am-6pm."
-" 
+- Blood work to be done at [Location] in the Atrium Suite or on the sixth floor, 8am-6pm.",,Female,Medicine,,,Abdominal distention,"Female with history of alcohol abuse presented with 10 days of constipation and abdominal distention. Recent heavy alcohol consumption (~10 glasses/day for 2 months, ended 1 month ago). No solid stool for 7 days. Denied fever, chills, chest pain, shortness of breath, or decreased exercise tolerance. Missed last two menstrual periods.",Alcohol abuse,Multivitamin - 1 tablet daily; Folic Acid 1 mg - 1 tablet daily; Thiamine HCl 100 mg - 1 tablet daily; Lidocaine 5% patch - Apply daily; Nicotine 14 mg/24 hr patch - Apply daily; Spironolactone 25 mg - 1 tablet daily; Levofloxacin 750 mg - 1 tablet daily for 5 days,,medium,,
+920459," 
 Name:  ___                Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -2481,8 +2639,96 @@ ___
 - Seek help if feeling unsafe or condition worsens.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Male,Psychiatry,,,Overwhelmed and suicidal feelings.,"Freshman at [Redacted] with a history of depression and anxiety. Worsening depression over 3 weeks, social isolation, guilt, poor sleep, and difficulty concentrating. Stress from a professional relationship with a teacher led to self-harm and suicidal ideation. No history of manic episodes or psychotic symptoms.","No previous psychiatric hospitalizations or medication trials.; Occasional panic attacks, one previous ED visit for panic attack.; Meniscus repair on left knee.","Citalopram 20 mg Tablet, 1 daily.; Clonazepam 0.5 mg Tablet, 1 in the morning and at bedtime.",,high,"**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Male
+- **Service:** Psychiatry
+- **Attending:** [Redacted]
+
+**Admission and Discharge:**
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+
+**Chief Complaint:**
+- Overwhelmed and suicidal feelings.
+
+**History of Present Illness:**
+- Freshman at [Redacted] with a history of depression and anxiety.
+- Worsening depression over 3 weeks, social isolation, guilt, poor sleep, and difficulty concentrating.
+- Stress from a professional relationship with a teacher led to self-harm and suicidal ideation.
+- No history of manic episodes or psychotic symptoms.
+
+**Past Medical History:**
+- No previous psychiatric hospitalizations or medication trials.
+- Occasional panic attacks, one previous ED visit for panic attack.
+- Meniscus repair on left knee.
+
+**Social History:**
+- Only child, parents divorced, raised by mother.
+- Father with history of alcohol dependence, now sober.
+- No history of abuse, some behavioral issues in school.
+- Lives alone in student housing, no current romantic relationships.
+
+**Family History:**
+- Father with alcohol problems (in remission).
+- Mother with hypothyroidism.
+
+**Physical Exam:**
+- Anxious, had a panic attack during the interview.
+- Depressed mood, constricted affect, organized thoughts with themes of guilt.
+- Suicidal ideation with a plan, but vacillating intent.
+- Good insight, fair judgment.
+
+**Pertinent Results:**
+- Normal lab results including glucose, electrolytes, TSH, and urine toxicology.
+
+**Hospital Course:**
+1. **Psychiatric:**
+   - Started on Celexa 10 mg and Klonopin 0.5 mg QHS and BID PRN.
+   - Significant reduction in anxiety and depressive symptoms.
+   - Agreed to take the rest of the semester off on medical leave and return home for support.
+   - Safe for discharge after joint meeting with academic staff and family.
+
+2. **Medical:**
+   - No active medical issues during the stay.
+
+3. **Groups/Behavioral:**
+   - Attended groups, remained calm, no disruptive behavior.
+
+4. **Legal:**
+   - No legal issues.
+
+**Medications on Admission:**
+- None
+
+**Discharge Medications:**
+1. Citalopram 20 mg Tablet, 1 daily.
+2. Clonazepam 0.5 mg Tablet, 1 in the morning and at bedtime.
+
+**Discharge Disposition:**
+- Home
+
+**Discharge Diagnosis:**
+- Axis I: Major depressive disorder, severe, without psychotic features; Anxiety disorder NOS
+- Axis III: Status post meniscus repair (knee)
+- Axis IV: Moderately severe psychosocial stressors
+- Axis V: GAF 45
+
+**Discharge Condition:**
+- Calm, no tremors, normal speech, euthymic affect, linear and goal-directed thoughts, denies SI/SIB, AOx3, fair insight and judgment.
+
+**Discharge Instructions:**
+- Take medications as prescribed.
+- Attend outpatient appointments.
+- Seek help if feeling unsafe or condition worsens.
+
+**Follow-up Instructions:**
+- [Redacted]",
+477829," 
 Name:  ___                   Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -2821,8 +3067,8 @@ ___
 - Incision care: Monitor for infection, avoid swimming/baths, shower with mild soap, and follow up for staple removal.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Surgery,,,Abdominal pain and vomiting,"Patient presented with cramping abdominal pain, nausea, and bilious vomiting starting at 1:00 AM. She had multiple episodes of vomiting and diarrhea. No prior history of similar pain or small bowel obstruction.",Carcinoid tumor (s/p R lung resection); Vitamin B12 deficiency; Depression; Hyperlipidemia,Albuterol MDI prn; Flovent inhaler prn; Sertraline 200 mg daily; Simvastatin 20 mg daily; Trazodone 100 mg at bedtime; Wellbutrin 75 mg twice daily,Sulfonamides; Codeine; Bactrim,high,,
+056596," 
 Name:  ___          Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -3229,8 +3475,8 @@ ___
 - Outpatient stress test
 - Follow-up appointments with primary care and specialists
 
-**Thank you for allowing us at the ___ to participate in your care.**"
-" 
+**Thank you for allowing us at the ___ to participate in your care.**",,Female,Medicine,,,Shortness of breath,"___-year-old woman with a history of hypertension, hyperlipidemia, diabetes mellitus on insulin, prior cerebellar-medullary stroke, and CKD stage III-IV presented with fatigue and dyspnea on exertion (DOE) worsening over a few weeks.",Hypertension; Hyperlipidemia; Diabetes mellitus on insulin; Cerebellar-medullary stroke; CKD stage III-IV; Peripheral vascular disease (PVD); Myocardial infarction (MI),Clopidogrel 75 mg daily; Nitroglycerin 0.4 mg sublingual PRN; Multivitamin daily; Ranitidine 150 mg twice daily; Pravastatin 80 mg daily; Aspirin 81 mg daily; Lisinopril 20 mg daily; Nifedipine 60 mg daily; Furosemide 40 mg daily; Insulin NPH & regular human 100 unit/mL (70-30) 30 units at dinner; Albuterol sulfate inhaler PRN,,high,,
+051259," 
 Name:  ___                   Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -3628,8 +3874,8 @@ ___
 - Complete 5-day course of Levofloxacin
 - Follow up on 3mm lung nodule as outpatient
 
-**It was a pleasure taking care of you, we wish you all the best!**"
-" 
+**It was a pleasure taking care of you, we wish you all the best!**",,Female,Medicine,,,Fever,"Patient with morbid obesity, coronary artery disease, presented with a productive cough, fever up to 103.2°F, and chills for 2 days. Husband had similar symptoms but improved without antibiotics. No chest pain but increased shortness of breath.",morbid obesity; coronary artery disease; Diabetes Mellitus Type 2,Escitalopram 20 mg PO daily; Lisinopril 20 mg PO daily; Esomeprazole 40 mg PO BID; Ferrous Sulfate 325 mg PO TID; Dicyclomine 10 mg PO QID PRN; Levothyroxine 25 mcg PO daily; Metoprolol Succinate 50 mg PO daily; Lorazepam 2 mg PO HS PRN; Insulin Glargine 100 units SC QHS; Levofloxacin 750 mg PO daily (complete 5-day course); Hydrocodone-Acetaminophen 5-500 mg PO Q6H PRN; Simvastatin 80 mg PO daily; Metformin 1000 mg PO BID; Furosemide 40 mg PO daily,,medium,,
+490249," 
 Name:  ___                 Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -3934,8 +4180,8 @@ ___
 - Call surgeon if experiencing new tremors, seizures, confusion, numbness, weakness, unrelieved pain, or signs of infection.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Neurosurgery,,,Exposed hardware,"Female with a history of right parietal anaplastic astrocytoma, multiple craniotomies, irradiation, and chemotherapy. Presented with exposed hardware requiring surgical removal.",right parietal anaplastic astrocytoma; multiple craniotomies; irradiation; chemotherapy; wound revision; Accutane use; tubal ligation; tonsillectomy; bronchitis; depression; seizures,Alprazolam; Azathioprine; Dicyclomine; Fluticasone-Salmeterol; Hydrocodone-Acetaminophen; Infliximab; Levothyroxine; Mesalamine; Omeprazole; Promethazine; Topiramate; Venlafaxine; Zolpidem; Acetaminophen; Docusate Sodium; Fluconazole; Oxycodone; Cephalexin,,medium,,
+161833," 
 Name:  ___              Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -4316,8 +4562,8 @@ ___
 - Follow-up for clearance to drive and return to work.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Neurosurgery,,,"Left hand and face numbness, left hand weakness and clumsiness, fever, and headache.",Patient with a history of multiple sclerosis (MS) presented with headaches and left hand clumsiness. Developed fever (101.7°F) and was normothermic after taking Tylenol. MRI revealed a right parietal lesion. Neurosurgery was consulted.,multiple sclerosis,Ibuprofen,Penicillins,medium,"Chief Complaint: Left hand and face numbness, left hand weakness and clumsiness, fever, and headache.",
+141923," 
 Name:  ___                    Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -4713,8 +4959,8 @@ ___
 - Creatinine check on [specified date], call results to PCP and Dr. [Redacted].
 
 **Follow-up:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Surgery,,,Recurrent diverticulitis,"Patient with recurrent diverticulitis, experiencing LLQ pain for one month. Completed a course of Cipro/Flagyl but pain recurred. Admitted for refractory LLQ pain.",Diverticulitis; Migraines; Left finger cellulitis,Escitalopram 10 mg daily; Fluticasone nasal spray daily; Colace 100 mg twice daily as needed; Lorazepam 0.5 mg every 8 hours as needed; Hydrocortisone 2.5% cream rectally three times daily as needed; Cephalexin suspension every 12 hours for 5 days; Tylenol as needed for fever or pain,,medium,,
+667465," 
 Name:  ___              Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -4989,8 +5235,17 @@ ___
 - Follow-up appointments arranged
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Urology,,,Bladder cancer,"Patient with invasive bladder cancer, MRI indicated possible invasion into the anterior vaginal wall. Underwent robotic anterior exenteration and open ileal conduit.",Hypertension; Laparoscopic cholecystectomy (6 months ago); Left knee replacement (6 to [Redacted] years ago); Laminectomy of L5-S1 at age [Redacted]; Two vaginal deliveries,Heparin 5000 UNIT SC once; Losartan Potassium 50 mg PO daily; Atorvastatin 10 mg PO QPM; Levothyroxine Sodium 175 mcg PO daily,,medium,"**Discharge Summary**
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Female
+- **Service:** Urology
+- **Attending:** [Redacted]
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]",
+936081," 
 Name:  ___               ___ No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -5252,8 +5507,8 @@ ___
 - Admitted for left-sided facial numbness, MRI showed no ischemia. Suspected migraine-related. Start daily aspirin. Return to ED if new numbness, weakness, or worsening symptoms occur.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,female,Neurology,,,Facial weakness,"Patient with a history of GERD, mild depression, and migraines presented with left-sided facial numbness lasting 90 minutes, resolved completely. No associated weakness or sensory changes outside the face. Recent history of diarrhea and feeling 'achey'.",GERD; Mild depression; Migraines; Bunions,Nexium 40 mg daily; Prozac 20 mg daily; Pantoprazole 40 mg daily; Fluoxetine 20 mg daily; Aspirin 81 mg daily,Sulfa (Sulfonamides); Penicillins,medium,,
+339136," 
 Name:  ___                Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -5760,8 +6015,8 @@ ___
 - Seek emergency medical attention if experiencing sudden vision loss, speech difficulties, weakness, facial drooping, or loss of sensation.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Neurology,,,Slurred speech,"[Redacted]-year-old right-handed woman with a history of atrial fibrillation (on Eliquis), hypertension, hyperlipidemia, and CHF presented with acute onset dysarthria. CTA showed possible partial thrombus or stenosis in the superior division of the left MCA. Transferred for closer monitoring and possible thrombectomy.",Diverticulosis; Atrial fibrillation; CHF; Hypercholesterolemia; Hypertension,Atorvastatin 40 mg PO QPM; Cyanocobalamin 500 mcg PO DAILY; Apixaban 2.5 mg PO BID; Atenolol 50 mg PO DAILY; Levofloxacin 500 mg PO Q24H; Losartan Potassium 50 mg PO DAILY,,high,,
+961043," 
 Name:  ___             Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -6203,8 +6458,99 @@ ___
 - Scheduled appointments with primary care and Allergy and Immunology
 
 **Contact Information:**
-- For medical records, call [Redacted]"
-" 
+- For medical records, call [Redacted]",,Female,Obstetrics/Gynecology,,,"Elective gynecologic surgery for urinary retention
+Anaphylaxis (post-surgery)","Cervical cancer post-radical hysterectomy with chronic lymphedema and urinary retention
+Asthma, GERD, IBS, anxiety/depression, fibromyalgia",Cervical cancer; ADHD; anxiety/depression; asthma; insomnia; GERD; Raynaud's; IBS; fibromyalgia,Docusate Sodium; Bisacodyl; Metolazone; Nexium; Oxycodone; Propranolol; Spironolactone; Zolpidem; Trimethoprim; Vivelle; Lorazepam; Potassium Chloride,,high,"--- NOTE ---
+
+**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Female
+- **Service:** Obstetrics/Gynecology
+- **Attending:** [Redacted]
+
+**Admission and Discharge:**
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+
+**Chief Complaint:**
+- Elective gynecologic surgery for urinary retention
+- Anaphylaxis (post-surgery)
+
+**Surgical Procedure:**
+- Stage 2 interstim with posterior colporrhaphy for rectocele and enterocele
+
+**History of Present Illness:**
+- Cervical cancer post-radical hysterectomy with chronic lymphedema and urinary retention
+- Asthma, GERD, IBS, anxiety/depression, fibromyalgia
+
+**Past Medical History:**
+- Cervical cancer, ADHD, anxiety/depression, asthma, insomnia, GERD, Raynaud's, IBS, fibromyalgia
+
+**Family History:**
+- Atopy in son and daughter, both with frequent allergy reactions requiring epi pens
+
+**Physical Exam:**
+- **MICU Admission:** Well-appearing, mild lip swelling, no angioedema, clear lungs, soft abdomen, Foley in place, alert and oriented
+- **MICU Discharge:** Well-appearing, normal voice, no angioedema, clear lungs, soft abdomen, Foley in place, alert and oriented
+- **GYN Floor Discharge:** VSS, NAD, A&O x3, no respiratory distress, soft abdomen, moving all extremities
+
+**Pertinent Results:**
+- Elevated WBC, glucose, and tryptase levels
+- No pertinent imaging or microbiology
+
+**Brief Hospital Course:**
+- Post-operative course was initially uncomplicated with pain managed by IV dilaudid and toradol.
+- Developed anaphylaxis in PACU, treated with Epi-pen, Solumedrol, Famotidine, and Hydroxyzine, and transferred to MICU.
+- In MICU, required additional Epi-pens for persistent symptoms but remained hemodynamically stable.
+- Allergy consult recommended stopping all new medications and follow-up with Allergy and Immunology.
+
+**Active Issues:**
+1. **Post-operative care:** Pain managed with oral medications, Foley removed, self-catheterization required.
+2. **Anaphylaxis:** Treated with Epi-pen, Solumedrol, Famotidine, and Hydroxyzine, monitored in MICU.
+3. **Chronic lymphedema:** Continued home medications.
+4. **Asthma:** No exacerbations during stay.
+5. **GERD:** Managed with Nexium.
+6. **ADHD:** Adderall held on admission.
+7. **Anxiety/depression/fibromyalgia:** Managed with lorazepam.
+8. **Insomnia:** Managed with zolpidem.
+
+**Medications on Admission:**
+- Albuterol, Cephalexin, Adderall, Ergocalciferol, Nexium, Vivelle, Diflucan, Hydroxyzine, Ibuprofen, Linzess, Ativan, Metolazone, Zofran, Oxycodone, Potassium chloride, Propranolol, Spironolactone, Trimethoprim, Ambien, Docusate sodium, Lactobacillus combination
+
+**Discharge Medications:**
+- Docusate Sodium, Bisacodyl, Metolazone, Nexium, Oxycodone, Propranolol, Spironolactone, Zolpidem, Trimethoprim, Vivelle, Lorazepam, Potassium Chloride
+
+**Discharge Disposition:**
+- Home
+
+**Discharge Diagnosis:**
+- Urinary retention, rectocele
+
+**Discharge Condition:**
+- Mental Status: Clear and coherent
+- Level of Consciousness: Alert and interactive
+- Activity Status: Ambulatory - Independent
+
+**Discharge Instructions:**
+- Take medications as prescribed
+- Avoid driving while on narcotics
+- Use stool softeners to prevent constipation
+- Avoid combining narcotics with sedatives or alcohol
+- No strenuous activity or heavy lifting for 6 weeks
+- No vaginal insertions for 6 weeks
+- Regular diet allowed
+- Monitor for fever, severe pain, difficulty urinating, excessive bleeding, abnormal discharge, or incision issues
+
+**Follow-up:**
+- Scheduled appointments with primary care and Allergy and Immunology
+
+**Contact Information:**
+- For medical records, call [Redacted]
+--- END NOTE ---",
+578388," 
 Name:  ___                   Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -6474,8 +6820,8 @@ ___
 - No bending, twisting, or lifting >5 lbs
 
 **Follow-up Instructions:**
-- Monitor for fever >101.5°F, wound drainage, or other concerns. Call the office for any issues or questions."
-" 
+- Monitor for fever >101.5°F, wound drainage, or other concerns. Call the office for any issues or questions.",,Male,Orthopaedics,,,Neck pain following a fall,Male patient transferred for evaluation of cervical fracture after a fall. No loss of consciousness. Complaints of headache and neck pain. CT scan confirmed fracture. No neurological deficits or other significant symptoms.,Atrial fibrillation; Colon cancer; Hypertension; COPD,Warfarin; Allopurinol; Mesalamine,Sulfa (Sulfonamide Antibiotics); Penicillins,medium,,
+840968," 
 Name:  ___                ___ No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -6850,8 +7196,78 @@ ___
 - General care instructions provided, including pain management, activity limitations, and signs to call the surgeon immediately.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Male,Neurosurgery,,,"Gait instability, multiple falls","Right-handed male with Afib on coumadin, experienced disorganized speech and gait instability since mid-last year. Recent falls, including one causing rib fractures. Diagnosed with DM II a month ago. CT and MRI revealed a left frontal meningioma and left parietal sub-acute infarct.",DM II; HTN; HL; MI; AF on coumadin; prostate CA,Isosorbide Dinitrate 10 mg PO BID; Lisinopril 20 mg PO Daily; Metoprolol Tartrate 50 mg PO TID; Simvastatin 10 mg PO Daily; Allopurinol [Dosage Redacted] PO Daily; Warfarin 2.5 mg PO Daily; Torsemide 5 mg PO Daily; Glipizide 10 mg PO BID,,medium,"--- NOTE ---
+**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Male
+- **Service:** Neurosurgery
+- **Attending:** [Redacted]
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+
+**Chief Complaint:**
+- Gait instability, multiple falls
+
+**History of Present Illness:**
+- Right-handed male with Afib on coumadin, experienced disorganized speech and gait instability since mid-last year. Recent falls, including one causing rib fractures. Diagnosed with DM II a month ago. CT and MRI revealed a left frontal meningioma and left parietal sub-acute infarct.
+
+**Past Medical History:**
+- DM II, HTN, HL, MI, AF on coumadin, prostate CA
+
+**Physical Exam at Admission:**
+- General: Well-developed, well-nourished, no acute distress
+- HEENT: Pupils 4->3, EOMs intact
+- Lungs: Clear to auscultation bilaterally
+- Cardiac: Irregular rhythm with holosystolic murmur
+- Abdomen: Soft, non-tender, bowel sounds present
+- Extremities: Warm, well-perfused
+- Neuro: Awake, cooperative, oriented, fluent speech, mild right-sided pronator drift, unsteady gait
+
+**Pertinent Results:**
+- **CT Head:** Left frontal extra-axial mass, possible meningioma, no midline shift
+- **MRI Head:** Bilateral infarctions, largest in left post-central gyrus, two meningiomas in left frontal region
+- **ECHO:** Mild aortic stenosis, mild aortic regurgitation, pulmonary artery systolic hypertension
+- **MRA Head/Neck:** Mild atherosclerotic disease of basilar artery
+
+**Brief Hospital Course:**
+- Admitted for falls and unsteadiness. Coumadin held, insulin sliding scale initiated. MRI confirmed meningioma and sub-acute infarct. Neurology recommended restarting coumadin, holding dilantin, and checking EEG. Surface echo and MRA performed. Neurology follow-up in 3 months with repeat MRI. Diabetes management adjusted to glipizide 10 mg BID. Discharged to short-term rehab for gait support.
+
+**Discharge Medications:**
+1. Isosorbide Dinitrate 10 mg PO BID
+2. Lisinopril 20 mg PO Daily
+3. Metoprolol Tartrate 50 mg PO TID
+4. Simvastatin 10 mg PO Daily
+5. Allopurinol [Dosage Redacted] PO Daily
+6. Warfarin 2.5 mg PO Daily
+7. Torsemide 5 mg PO Daily
+8. Glipizide 10 mg PO BID
+
+**Discharge Disposition:**
+- Extended Care Facility
+
+**Discharge Diagnosis:**
+- Left frontal meningioma, left parietal sub-acute infarct, Diabetes
+
+**Discharge Condition:**
+- Mental Status: Sometimes confused
+- Level of Consciousness: Alert and interactive
+- Activity Status: Ambulatory with assistance (walker or cane)
+
+**Discharge Instructions:**
+- Take coumadin as prescribed.
+- No need for anti-seizure medications.
+- Follow up with Dr. [Redacted] and Dr. [Redacted] as listed.
+- Follow up MRI needed.
+- Take all medications as prescribed.
+- General care instructions provided, including pain management, activity limitations, and signs to call the surgeon immediately.
+
+**Follow-up Instructions:**
+- [Redacted]
+--- END NOTE ---",
+232228," 
 Name:  ___             Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -7183,8 +7599,8 @@ ___
 - Admitted for back and arm pain concerning for heart disease. Stress test confirmed coronary artery disease. Started on new blood pressure medication (Diltiazem) and nitroglycerin for chest pain. Follow-up with cardiology and PCP. Discontinued theophylline. Advised to stop smoking.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Medicine,,,Atypical chest pain,"[Redacted] y/o woman with intermittent left posterior shoulder pain radiating to arm and fingers, described as ""pins-n-needles."" No SOB, N/V. Minimal diaphoresis and GERD-like symptoms. Pain managed with Tylenol #3.",Hypertension (HTN); Asthma; Diverticulitis (several years ago); Right hip replacement,Acetaminophen 325 mg Q4H PRN pain; Albuterol sulfate 90 mcg Q6H PRN SOB; Fluticasone-salmeterol 500-50 mcg BID; Fluticasone 50 mcg nasal spray PRN; Hydrochlorothiazide 50 mg daily; Omeprazole 20 mg daily; Simvastatin 20 mg daily; Tiotropium bromide 18 mcg daily; Aspirin 81 mg daily; Multivitamin daily; Diltiazem HCl 120 mg daily; Nitroglycerin 0.3 mg SL PRN chest pain,,medium,"Chief Complaint: Atypical chest pain. History of Present Illness: [Redacted] y/o woman with intermittent left posterior shoulder pain radiating to arm and fingers. Stress Echo showed hypokinesis of inferior and inferolateral walls. Managed medically with aspirin, statin, and diltiazem.",
+663926," 
 Name:  ___                  Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -7569,8 +7985,8 @@ ___
 - For any concerns or symptoms such as severe pain, fever, chest pain, or urinary issues, contact your surgeon immediately.
 
 **Care Team:**
-- [Redacted]"
-" 
+- [Redacted]",,Male,Surgery,,,Locally advanced gastric carcinoma,"Male with stage II (T3N2) gastric cancer, post-induction chemotherapy, presented for curative-intent surgical resection. Developed right upper extremity edema due to thrombosis in the right SVC, managed with Lovenox. Recent CT showed no evidence of disease.",Prostate cancer; thyroid nodule; hypothyroid; mild GERD; diverticulosis; resolved iron deficiency anemia,Acetaminophen 1000 mg PO TID; Docusate Sodium 100 mg PO BID; Senna 8.6 mg PO BID PRN; Tramadol 50 mg PO Q6H PRN; Enoxaparin Sodium 120 mg SC daily,,medium,,
+889074," 
 Name:  ___                 Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -7975,8 +8391,93 @@ ___
 
 **Discharge Diagnosis:**
 - **Primary:** UTI
-- **Secondary:** Back Pain, Diabetes"
-" 
+- **Secondary:** Back Pain, Diabetes",,Female,Medicine,,,Back Pain,"[Redacted] y/o female with a history of HTN, GERD, CAD s/p CABG and stenting, IDDM with peripheral neuropathy presented with right flank pain for 3 weeks, worsening over the past 2 days. No dysuria, urinary frequency, abdominal pain, n/v, chest pain, SOB, or dizziness. Endorsed 4 episodes of diarrhea.",COPD; CAD s/p CABG and stenting; Depression; DM; GERD; HTN; Migraines; Chronic shoulder pain on narcotics; OSA; Peripheral neuropathy; Restless leg syndrome,Losartan; Metoprolol; Atorvastatin; Isosorbide; Nitroglycerin; Ropinirole; Oxycodone-Acetaminophen; Fluticasone; Pantoprazole; Aspirin; Albuterol; Trazodone; Vitamin D; Levemir; Humalog,Lisinopril,medium,"--- NOTE ---
+**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Female
+- **Service:** Medicine
+- **Attending:** [Redacted]
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+
+**Allergies:**
+- Lisinopril
+
+**Chief Complaint:**
+- Back Pain
+
+**Major Surgical or Invasive Procedure:**
+- None
+
+**History of Present Illness:**
+- [Redacted] y/o female with a history of HTN, GERD, CAD s/p CABG and stenting, IDDM with peripheral neuropathy presented with right flank pain for 3 weeks, worsening over the past 2 days. No dysuria, urinary frequency, abdominal pain, n/v, chest pain, SOB, or dizziness. Endorsed 4 episodes of diarrhea.
+
+**Past Medical History:**
+- COPD, CAD s/p CABG and stenting, Depression, DM, GERD, HTN, Migraines, Chronic shoulder pain on narcotics, OSA, Peripheral neuropathy, Restless leg syndrome
+
+**Social History:**
+- [Redacted]
+
+**Family History:**
+- Mother: Unknown alcohol abuse
+- Father: Hodgkin's disease
+
+**Physical Exam:**
+- **Admission Vitals:** 98.3, 155/88, 92, 20, 99% RA
+- **Discharge Vitals:** 97.8, 107/59, 78, 18, 97% RA
+- **General:** NAD
+- **HEENT:** NCAT
+- **Cardiac:** RRR, S1/S2, no murmurs, gallops, or rubs
+- **Lung:** CTAB, no wheezes, rales, rhonchi
+- **Abdomen:** Nondistended, +BS, nontender
+- **Extremities:** No cyanosis, clubbing, or edema
+- **Back:** Tenderness to right paraspinal muscles, +CVA tenderness
+- **Neuro:** AAOx3, no focal deficits
+- **Skin:** No rashes, lesions, excoriations
+
+**Pertinent Results:**
+- **CT Abdomen/Pelvis:** Tiny nonobstructing right collecting system calculus, hepatic steatosis, nodular pulmonary densities in the left basilar region.
+- **Admission Labs:** Elevated glucose (446), creatinine (1.4), lactate (3.0), WBC (9.4), AST (54)
+- **Discharge Labs:** Glucose (254), creatinine (1.0), WBC (7.0), AST (17)
+
+**Brief Hospital Course:**
+- **UTI/Bacturia:** Treated with ceftriaxone, switched to ciprofloxacin. No evidence of pyelonephritis on CT.
+- **Flank Pain:** Managed with anti-inflammatories, no nephrolithiasis on CT. Pain controlled with PO medications.
+- **Diabetes/Hyperglycemia:** Managed with home dose lantus and sliding scale insulin. Glucose levels improved.
+- **CKD:** Creatinine normalized with IV fluids.
+
+**Chronic Issues:**
+- **HF with pEF/CAD:** Managed with metoprolol, isosorbide, aspirin, atorvastatin. Losartan held.
+- **HTN:** Managed with metoprolol and isosorbide.
+- **Restless Leg Syndrome:** Continued ropinirole.
+- **Shoulder Pain:** Managed with oxycodone and acetaminophen.
+- **COPD:** Continued Advair and PRN albuterol.
+- **GERD:** Continued pantoprazole.
+- **Insomnia:** Continued trazodone.
+
+**Transitional Issues:**
+- Losartan held, PCP to determine restart.
+- Follow-up with PCP for UTI and back pain.
+- Insulin regimen adjustments needed for optimal glycemic control.
+
+**Medications on Admission:**
+- Losartan, Metoprolol, Atorvastatin, Isosorbide, Nitroglycerin, Ropinirole, Oxycodone-Acetaminophen, Fluticasone, Pantoprazole, Aspirin, Albuterol, Trazodone, Vitamin D, Levemir, Humalog
+
+**Discharge Medications:**
+- Oxycodone-Acetaminophen, Nitroglycerin, Metoprolol, Levemir, Humalog, Albuterol, Ciprofloxacin, Vitamin D, Trazodone, Isosorbide, Aspirin, Atorvastatin, Fluticasone, Pantoprazole, Ropinirole
+
+**Discharge Disposition:**
+- Home
+
+**Discharge Diagnosis:**
+- **Primary:** UTI
+- **Secondary:** Back Pain, Diabetes
+--- END NOTE ---",
+464517," 
 Name:  ___                    Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -8260,8 +8761,86 @@ ___
 - No changes to chronic medications.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Medicine,,,Diarrhea,"Elderly female with a history of irritable bowel syndrome and dementia presented with acute onset of diarrhea, nausea, and vomiting after consuming corned beef and cabbage. No fever, abdominal cramping, or blood in stool. Symptoms persisted despite Imodium. Dehydration and acute renal failure noted on admission.",Irritable bowel syndrome; Dementia,"Donepezil 5 mg PO HS; Namenda 10 mg PO HS; Aspirin 162 mg PO daily; Raloxifene 60 mg PO weekly; Multivitamin PO daily; Glucosamine PO daily; Vitamin D PO daily; Ascorbic Acid PO daily; Calcium 500 mg PO daily; Erythromycin ointment for left eye, 4 times daily for 5 days",Penicillins; Dilantin,medium,"--- NOTE ---
+**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Female
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+- **Service:** Medicine
+- **Attending:** [Redacted]
+
+**Allergies:**
+- Penicillins
+- Dilantin
+
+**Chief Complaint:**
+- Diarrhea
+
+**History of Present Illness:**
+- Elderly female with a history of irritable bowel syndrome and dementia presented with acute onset of diarrhea, nausea, and vomiting after consuming corned beef and cabbage. No fever, abdominal cramping, or blood in stool. Symptoms persisted despite Imodium. Dehydration and acute renal failure noted on admission.
+
+**Physical Exam:**
+- Vital Signs: T 98.6, P 64, BP 124/72, 95% on RA.
+- General: Elderly female, NAD.
+- HEENT: Hard of hearing, right ear better.
+- Chest: Clear lungs, normal respirations.
+- CV: Regular rhythm, normal heart sounds.
+- Abdomen: Soft, non-tender, non-distended.
+- Extremities: No edema.
+- Neuro: Alert, oriented, short-term memory impairment.
+- Psych: Normal appearance, behavior, and affect.
+
+**Pertinent Results:**
+- Stool cultures pending, C. difficile toxin negative.
+- Labs: Elevated BUN (33), WBC 4.1, MCV 99, glucose 118, creatinine 1.1.
+- Urine: No significant findings.
+
+**Hospital Course:**
+- Treated with IV fluids and bowel rest.
+- Infectious workup negative, likely norovirus.
+- Gradual diet advancement, improved diarrhea, and renal function returned to baseline.
+- Conjunctivitis treated with erythromycin ointment.
+
+**Discharge Medications:**
+1. Donepezil 5 mg PO HS
+2. Namenda 10 mg PO HS
+3. Aspirin 162 mg PO daily
+4. Raloxifene 60 mg PO weekly
+5. Multivitamin PO daily
+6. Glucosamine PO daily
+7. Vitamin D PO daily
+8. Ascorbic Acid PO daily
+9. Calcium 500 mg PO daily
+10. Erythromycin ointment for left eye, 4 times daily for 5 days
+
+**Discharge Disposition:**
+- Home
+
+**Discharge Diagnosis:**
+1. Gastrointestinal Virus
+2. Dehydration
+3. Symptomatic Orthostasis
+
+**Discharge Condition:**
+- Mental Status: Clear and coherent
+- Level of Consciousness: Alert and interactive
+- Activity Status: Ambulatory, independent
+
+**Discharge Instructions:**
+- Continue oral hydration and advance diet as tolerated.
+- Follow up with Dr. [Redacted] on [Redacted].
+- Continue erythromycin ointment for left eye for 5 more days.
+- Monitor for any worsening symptoms and contact PCP if needed.
+- No changes to chronic medications.
+
+**Follow-up Instructions:**
+- [Redacted]
+--- END NOTE ---",
+933589," 
 Name:  ___                 Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -8719,8 +9298,8 @@ ___
 - Admitted for cough and hypoxia, treated with antibiotics and oxygen. Follow-up with oncologist for potential chemotherapy. CHF stable, lasix and amlodipine held, metoprolol dose adjusted. Monitor weight daily and contact MD if weight increases by more than 3 lbs.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Medicine,,,Difficulty in breathing,"Female with NSCLC (stage IV) presented with shortness of breath and non-productive cough. Found hypoxic in ED, treated with antibiotics, and transferred to ICU.",CAD s/p MI; s/p CABG; Hypertension; Dyslipidemia; CVA; Macular Degeneration; NSCLC stage IV,Oxygen; Levofloxacin 500 mg Q48H for 2 weeks; Atorvastatin 40 mg daily; Metoprolol tartrate 25 mg twice daily; Docusate sodium 100 mg twice daily; Trazodone 50 mg at bedtime as needed; Clopidogrel 75 mg daily; Ranitidine HCl 150 mg daily; Calcitriol 0.25 mcg daily; Folic acid 1 mg daily; Aspirin 81 mg daily,Codeine,high,"Patient presented with shortness of breath and hypoxia, transferred to ICU. Discharge summary.",
+767471," 
 Name:  ___                 Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -8912,8 +9491,8 @@ ___
 - Band adjusted, 1.5cc removed, 2.5cc remaining. Tolerated water bolus test. Return if nausea/vomiting recurs. Continue home medications.
 
 **Follow-up Instructions:**
-- Follow up with Dr. [Redacted] in 2 weeks."
-" 
+- Follow up with Dr. [Redacted] in 2 weeks.",,Female,Surgery,,,Nausea and vomiting,"Patient with a history of lap band surgery presented with a 1-week history of nausea, non-bilious non-bloody vomiting, intolerance to solids/softs, hypersalivation, and moderate post-prandial epigastric discomfort. No fever, chills, hematemesis, BRBPR, melena, diarrhea, or dehydration symptoms. Recently diagnosed with BPPV. Previous band adjustments noted.",Hyperlipidemia; iron deficiency anemia; irritable bowel syndrome; allergic rhinitis; dysmenorrhea; vitamin D deficiency; possible hypothyroidism; thalassemia trait; fatty liver; cholelithiasis; obstructive sleep apnea (resolved post-tonsillectomy); polycystic ovary syndrome,Lorazepam 0.5 mg PO BID PRN anxiety; BusPIRone 5 mg PO TID,,low,,
+486744," 
 Name:  ___                Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -9335,8 +9914,8 @@ ___
 - Follow-up: Close follow-up with Dr. [Redacted] for drain removal and routine check-up.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Surgery,,,Left breast swelling and pain,"Patient with left breast IDC Grade 3, on anticoagulation, presented with left breast swelling and pain post-lumpectomy and SLNB, concerning for a hematoma.",Dyslipidemia; varicose veins (R>L) s/p ligation; COPD; OSA (on CPAP); recent URI; bilateral PEs; antiphospholipid antibody syndrome (on lifelong anticoagulation); T2DM; cerebral aneurysm; GERD; diverticulosis; history of colon polyps; depression; s/p right CMC joint arthroplasty; bilateral rotator cuff repair; excision of right digit mass; cholecystectomy with stone & pancreatic duct exploration; hysterectomy; tonsillectomy,Tramadol 50 mg PO Q4H PRN Pain; Atorvastatin 40 mg PO QPM; Docusate Sodium 100 mg PO BID; Omeprazole 20 mg PO BID; Senna 17.2 mg PO HS; Sertraline 150 mg PO DAILY; Trazodone 50 mg PO QHS PRN sleep,Codeine; Augmentin; Topamax,medium,,
+035120," 
 Name:  ___                   Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -9783,8 +10362,8 @@ ___
 - **Symptoms to Monitor:** Severe pain, fever, nausea, extreme sleepiness, severe headaches, seizures, vision/speech changes, weakness.
 
 **Follow-up:**
-- With thoracic oncologist and primary care provider as scheduled."
-" 
+- With thoracic oncologist and primary care provider as scheduled.",,Female,Neurosurgery,,,Headaches,Female with history of cerebral aneurysm clipping presented with headaches and difficulty walking. CT showed left cerebellar hypodensity. Transferred for further evaluation and treatment.,Hypertension; Status post aneurysm clipping,Acetaminophen 650 mg PO Q6H PRN; Bisacodyl 10 mg PO/PR DAILY; Dexamethasone 3 mg PO Q8H (tapering dose); Docusate Sodium 100 mg PO BID; Famotidine 20 mg PO Q24H; Polyethylene Glycol 17 g PO DAILY PRN; Senna 17.2 mg PO HS; Levothyroxine Sodium 88 mcg PO DAILY; Lisinopril 20 mg PO DAILY; Prednisolone Acetate 1% Ophth. Susp. 1 DROP LEFT EYE QID; Valacyclovir 1000 mg PO Q8H; Vitamin D [Redacted] UNIT PO DAILY; Alendronate Sodium 70 mg PO 1X/WEEK (held until POD 14); Aspirin 81 mg PO DAILY (held until POD 14); Glucometer and supplies for daily blood sugar monitoring,,medium,,
+128132," 
 Name:  ___               ___ No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -10110,8 +10689,8 @@ ___
 - Keep follow-up appointments as scheduled.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Medicine,,,Syncope,"Patient with a history of aortic regurgitation, hypothyroidism, Sjogren's syndrome, and hypertension presented after a syncopal episode. She experienced weakness, lightheadedness, and nausea before fainting. No seizure activity or loss of bowel/bladder control was noted. She had a recent cough with phlegm but no fever or chills.",Hypertension; Hypothyroidism; Sjogren's Syndrome,Levothyroxine 50mcg daily; Lisinopril 10mg daily; Sulfamethoxazole-trimethoprim 800-160mg BID for 2 days; Fish Oil; Calcium,,medium,,
+312806," 
 Name:  ___              Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -10417,8 +10996,8 @@ ___
 - **Pain Management:** Take pain meds as prescribed, contact surgeon if pain worsens or is accompanied by fever >101°F.
 
 **Follow-up:**
-- Follow up with Dr. [Redacted] as scheduled."
-" 
+- Follow up with Dr. [Redacted] as scheduled.",,Male,Surgery,,,Incarcerated inguinal hernia,"Patient with atrial fibrillation on apixaban, CAD post-CABG, bilateral carotid disease, COPD/emphysema with recent pneumonia, presented for elective left inguinal hernia repair (large, with incarcerated sigmoid colon).",Bilateral moderate carotid disease; Congestive heart failure; Coronary artery disease; Gastroesophageal reflux; Hypertension; Severe emphysema; Pulmonary hypertension; Right bundle branch block; Benign prostatic hypertrophy; Hyperlipidemia; Paroxysmal atrial fibrillation; History of histoplasmosis,Amiodarone 200 mg PO daily; Apixaban 5 mg PO BID; Aspirin 81 mg PO daily; Docusate Sodium 100 mg PO BID; Losartan Potassium 25 mg PO daily; Omeprazole 10 mg PO daily; Triamterene-HCTZ (37.5/25) 1 cap PO daily; Acetaminophen 1000 mg PO Q6H PRN pain or fever (max 4g/day); Oxycodone (Immediate Release) 5 mg PO Q4H PRN pain; Senna 17.2 mg PO HS; Align (bifidobacterium infantis) 4 mg oral daily; Coenzyme Q10 100 mg oral daily; Rosuvastatin Calcium 40 mg PO QPM; Vitamin D 1000 UNIT PO daily,,medium,,
+702389," 
 Name:  ___                       Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -10911,8 +11490,75 @@ ___
 - Activity Status: Ambulatory - Independent
 
 **Discharge Disposition:**
-- Home"
-" 
+- Home",,Male,Medicine,,,Chest pain,"Male with rheumatoid arthritis, recent hospitalization for pericarditis, returned with probable cardiac tamponade. Underwent pericardiocentesis and was transferred. Presented with severe chest pain, dyspnea, and hypotension. Improved post-procedure.",Pericarditis; Hypertension; Dyslipidemia; Rheumatoid arthritis; Remote traumatic DVT; Cholecystectomy; Appendectomy; Tonsillectomy; Left wrist reconstruction; Right rotator cuff reconstruction,Metformin 500mg BID; Metoprolol XL 50mg QD; Omeprazole 20mg QD; Atorvastatin 10mg QPM; Colchicine 0.6mg BID; Ibuprofen 600mg TID; Folic acid 1mg QD; Sertraline 100mg QD,,high,"--- NOTE ---
+**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Male
+- **Service:** Medicine
+- **Attending:** [Redacted]
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+
+**Chief Complaint:**
+- Chest pain
+
+**Major Procedures:**
+- Bedside pericardiocentesis with drain placement
+
+**History of Present Illness:**
+- Male with rheumatoid arthritis, recent hospitalization for pericarditis, returned with probable cardiac tamponade. Underwent pericardiocentesis and was transferred. Presented with severe chest pain, dyspnea, and hypotension. Improved post-procedure.
+
+**Past Medical History:**
+- Pericarditis, Hypertension, Dyslipidemia, Rheumatoid arthritis, Remote traumatic DVT, Cholecystectomy, Appendectomy, Tonsillectomy, Left wrist reconstruction, Right rotator cuff reconstruction.
+
+**Family History:**
+- Paternal ureothelial carcinoma, Maternal diabetes.
+
+**Physical Exam:**
+- Admission: Obese male, mild to moderate respiratory distress, JVP at mandibular angle, tachycardic, diffuse wheezing, 2+ pitting edema.
+- Discharge: Improved respiratory effort, no JVP, normal cardiac rhythm, 1-2+ pitting edema.
+
+**Pertinent Results:**
+- Labs: Elevated WBC, glucose, and calcium. Normal BNP.
+- Imaging: TTE showed no pericardial effusion.
+- Micro: Pericardial fluid culture showed 1 colony of coagulase-negative staph, likely contaminant.
+
+**Hospital Course:**
+- Treated for acute pericarditis and cardiac tamponade with pericardiocentesis and drain placement.
+- Developed acute hypercapnic respiratory failure, likely due to fluid administration.
+- New diagnosis of paroxysmal AFib, treated with metoprolol.
+- Newly diagnosed with Type II diabetes, started on metformin.
+
+**Discharge Medications:**
+- **New:** Metformin 500mg BID, Metoprolol XL 50mg QD, Omeprazole 20mg QD
+- **Continued:** Atorvastatin 10mg QPM, Colchicine 0.6mg BID, Ibuprofen 600mg TID, Folic acid 1mg QD, Sertraline 100mg QD
+- **Stopped:** Methotrexate 20mg PO, Famotidine 20mg QD
+
+**Discharge Instructions:**
+- Take all medications as prescribed.
+- Follow up with doctors as scheduled.
+- Monitor weight daily, seek medical attention if weight increases by more than 3 lbs.
+- Seek medical attention for new or worsening symptoms.
+
+**Follow-Up:**
+- [Redacted]
+
+**Discharge Diagnosis:**
+- Primary: Inflammatory pericarditis
+- Secondary: Rheumatoid arthritis
+
+**Discharge Condition:**
+- Mental Status: Clear and coherent
+- Level of Consciousness: Alert and interactive
+- Activity Status: Ambulatory - Independent
+
+**Discharge Disposition:**
+- Home
+--- END NOTE ---",
+760061," 
 Name:  ___                  Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -11419,8 +12065,8 @@ ___
 - Follow up with urology for hematuria.
 
 **Follow-up Instructions:**
-"
-" 
+",,M,Medicine,,,"Cardiogenic shock, NSTEMI","Male with HTN, HLD, DMII, and prior MI presented with chest pain and was transferred for catheterization. Found to have mid-LAD occlusion and underwent DES placement. Developed hypotension and was managed with fluids and Lasix.",Hypertension (HTN); Hyperlipidemia (HLD); Type 2 Diabetes Mellitus (DMII); Coronary Artery Disease (CAD) s/p MI; H. Pylori infection; Spinal stenosis,Aspirin EC 81 mg PO DAILY; Digoxin 0.125 mg PO DAILY; Metoprolol Succinate XL 50 mg PO DAILY; Atorvastatin 80 mg PO QPM; Warfarin 4 mg PO DAILY; GlipiZIDE 2.5 mg PO BID; Clopidogrel 75 mg PO DAILY; Omeprazole 20 mg PO BID; Vancomycin Oral Liquid [Redacted] mg PO Q6H; MetFORMIN (Glucophage) 500 mg PO BID; Gabapentin 600 mg PO TID; Lisinopril 2.5 mg PO DAILY; Furosemide 20 mg PO DAILY,,high,,
+374278," 
 Name:  ___                 Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -11808,8 +12454,8 @@ ___
 - Extended Care Facility: [Redacted]
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Neurology,,,Weakness and lethargy,"Female with chronic abdominal pain and anemia, recently had an iron sucrose infusion complicated by an infusion reaction. Presented with increasing lethargy and headache. History provided by her aunt.",,Famotidine 40 mg daily; Birth control; Metoprolol Tartrate 12.5 mg PO daily; Multivitamins with minerals 1 tab PO daily; Nortriptyline 10 mg PO QHS,Amoxicillin,medium,,
+348605," 
 Name:  ___            Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -12176,8 +12822,8 @@ ___
 
 **Discharge Diagnosis:**
 1. Cholelithiasis
-2. Chronic cholecystitis"
-" 
+2. Chronic cholecystitis",,Female,Surgery,,,Right upper quadrant (RUQ) and epigastric pain,"Female with a one-day history of intermittent RUQ and epigastric pain, associated with nausea. No emesis, fevers, or chills. Previous similar pain episodes. Decreased appetite and no oral intake since pain onset.",Multinodular goiter; Osteopenia; GERD; Gallbladder stone disease; Breast Cancer; Chronic constipation; Chronic migraines,Acetaminophen 1000 mg PO Q8H; Acetaminophen-Caff-Butalbital PRN headache; Amlodipine 10 mg PO DAILY; Aspirin 81 mg PO DAILY; Atorvastatin 40 mg PO QPM; Docusate Sodium 100 mg PO BID; Lorazepam 0.5 mg PO QHS PRN insomnia; Metoprolol Succinate XL 50 mg PO DAILY; Omeprazole 20 mg PO DAILY; Oxycodone 2.5-10 mg PO Q4H PRN pain; Polyethylene Glycol 17 g PO DAILY PRN constipation; Senna 8.6 mg PO BID PRN constipation; Tramadol 50 mg PO BID PRN pain; Valsartan 320 mg PO DAILY; Zolpidem Tartrate 5 mg PO QHS PRN insomnia,,medium,,
+929332," 
 Name:  ___              Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -12494,8 +13140,75 @@ ___
 - Follow up with primary care provider. Continue prescribed medications. Monitor for any recurrence of symptoms. The exact cause of the acute confusion and fever remains unknown, but symptoms have resolved.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Male,Medicine,,,Fever,"Presented with 1 day of general malaise, fever, altered mental status, chills, sore throat, dry cough, and intermittent headache. Tachycardic to 160 upon EMS assessment. Disoriented upon ED arrival. Lumbar puncture performed due to concern for meningitis; results were negative for infection.",,"Acetaminophen 325-650 mg PO Q6H PRN fever, pain; Amoxicillin-Clavulanic Acid 875 mg-125 mg PO Q12H for 7 days",,high,"**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Male
+- **Service:** Medicine
+- **Attending:** [Redacted]
+- **Allergies:** No Known Allergies
+
+**Admission and Discharge:**
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+
+**Chief Complaint:**
+- Fever
+
+**Major Procedure:**
+- Lumbar puncture
+
+**History of Present Illness:**
+- Presented with 1 day of general malaise, fever, altered mental status, chills, sore throat, dry cough, and intermittent headache. Tachycardic to 160 upon EMS assessment. Disoriented upon ED arrival. Lumbar puncture performed due to concern for meningitis; results were negative for infection.
+
+**Past Medical History:**
+- None
+
+**Social History:**
+- Lives with 4 roommates, no recent travel, no known sick contacts, no recent sexual activity, last alcohol use on [Redacted] night.
+
+**Family History:**
+- Father: Hypertension, pre-diabetes
+
+**Physical Exam:**
+- **Admission:** Sleeping but arousable, tachycardic, mildly diaphoretic, oriented x3 but intermittently confused.
+- **Discharge:** Awake, NAD, red/swollen bilateral tonsils without exudate, normal vital signs.
+
+**Pertinent Results:**
+- **Labs:** Elevated WBC, normal glucose, slightly elevated lactate, normal liver enzymes, negative urine/blood tox screen.
+- **Microbiology:** Negative CSF culture, negative for respiratory viruses, negative for HSV, HIV, RPR, Lyme disease.
+
+**Brief Hospital Course:**
+- **Altered Mental Status:** Confusion resolved shortly after admission. No evidence of infection from LP or other tests.
+- **Throat Pain:** Erythematous, slightly enlarged tonsils without exudates. Treated empirically with 7 days of Augmentin.
+
+**Medications on Admission:**
+- None
+
+**Discharge Medications:**
+1. Acetaminophen 325-650 mg PO Q6H PRN fever, pain
+2. Amoxicillin-Clavulanic Acid 875 mg-125 mg PO Q12H for 7 days
+
+**Discharge Disposition:**
+- Home
+
+**Discharge Diagnosis:**
+- Primary: Fever, acute encephalopathy, pharyngitis
+
+**Discharge Condition:**
+- Mental Status: Clear and coherent
+- Level of Consciousness: Alert and interactive
+- Activity Status: Ambulatory - Independent
+
+**Discharge Instructions:**
+- Follow up with primary care provider. Continue prescribed medications. Monitor for any recurrence of symptoms. The exact cause of the acute confusion and fever remains unknown, but symptoms have resolved.
+
+**Follow-up Instructions:**
+- [Redacted]",
+637721," 
 Name:  ___                     Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -12842,8 +13555,8 @@ ___
 - Use Oxycodone and Simethicone for pain as needed.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Male,Medicine,,,Abdominal pain,"[Redacted] year-old male with one week of colicky abdominal pain, chills, and cold sweats. Initial CT showed mildly dilated jejunum and elevated liver enzymes. Subsequent KUB and liver ultrasound were non-specific. No bowel movement since admission, loss of appetite, occasional nausea without vomiting. History of untreated H. pylori.",Appendectomy; GERD,Omeprazole 20 mg PO BID; Amoxicillin 1000 mg PO Q12H; Clarithromycin 500 mg PO Q12H; Oxycodone 5 mg PO Q6H PRN Pain; Fish Oil 1000 mg PO BID; Sertraline 75 mg PO DAILY; Docusate Sodium 100 mg PO BID PRN constipation; Senna 1 TAB PO BID PRN constipation; Simethicone 40-80 mg PO QID; Polyethylene Glycol 17 g PO DAILY PRN constipation,,medium,Discharge Summary: Male patient admitted with abdominal pain and elevated LFTs. Treated for H. pylori and constipation.,
+642453," 
 Name:  ___                  Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -13115,8 +13828,8 @@ ___
 - Call with any questions or concerns
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Male,Cardiothoracic,,,Decreased energy,"[Redacted] year old male with childhood murmur, severe aortic stenosis found during recent pneumonia admission, referred for AVR after clean coronary cath.",Bicuspid aortic valve; aortic stenosis; aortic insufficiency; valvular-induced cardiomyopathy; moderate pulmonary hypertension; recent pneumonia,Lasix; Zocor; KCL; Coreg; Amoxicillin; ASA,,medium,,
+929442," 
 Name:  ___                  Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -13435,8 +14148,8 @@ ___
 - Call doctor if experiencing cough, shortness of breath, chest pain, severe nausea/vomiting, headache, muscle aches, dizziness, redness, swelling, increasing pain, excessive bleeding, discharge from incision, or signs of infection
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Surgery,,,Venous stasis ulcer,,Hypertension; Hypercholesterolemia; History of DVTs; Diverticulosis; Previous skin graft; Fibroids; Total abdominal hysterectomy/bilateral salpingo-oophorectomy (TAH/BSO); Hepatitis B core antibody positive,Amlodipine; Atenolol; Gabapentin; Lisinopril; Ibuprofen; Dicloxacillin; Percocet; Cerovite Silver,,low,"Venous stasis ulcer, split-thickness skin graft from left thigh to left ankle.",
+710041," 
 Name:  ___                   Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -13719,8 +14432,8 @@ ___
 - Perform drain care twice daily, record output, maintain suction.
 
 **Follow-up Instructions:**
-- ___"
-" 
+- ___",,Female,Surgery,,,Left breast invasive ductal carcinoma,"Pregnant female with a palpable left breast lump diagnosed as grade 2 invasive ductal carcinoma (ER positive, PR positive, HER2 negative). Reports tiredness, increased levothyroxine dose, and left nipple crusting post-biopsy.",Thyroid cancer; postsurgical hypothyroidism; IBS; ovarian cysts; PID; spine arthritis; asthma; mononucleosis; Lyme disease (treated); Hashimoto's negative,Acetaminophen 1000 mg PO Q6H; Docusate Sodium 100 mg PO BID; HYDROmorphone (Dilaudid) ___ mg PO Q3H PRN severe pain; Albuterol Inhaler ___ PUFF IH Q6H PRN wheezing/dyspnea; Levothyroxine Sodium 175 mcg PO daily; Prenatal Vitamins 1 TAB PO daily,,low,Left breast invasive ductal carcinoma. Pregnant female with a palpable left breast lump diagnosed as grade 2 invasive ductal carcinoma.,
+584891," 
 Name:  ___                Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -13898,8 +14611,8 @@ ___
 - **Activity and Weight Bearing:** Nonweightbearing on the left upper extremity, keep splint dry and intact until follow-up.
 
 **Follow-up:**
-- Appointment with Dr. [Redacted] in the hand clinic."
-" 
+- Appointment with Dr. [Redacted] in the hand clinic.",,Male,Orthopaedics,,,Left wrist pain,Male with a 1-day history of left wrist pain following a mechanical fall on an outstretched left hand. No numbness or tingling reported.,Glaucoma,Docusate Sodium 100 mg PO BID; Senna 1 TAB PO BID; Acetaminophen 650 mg PO Q6H PRN pain,Aspirin,medium,"Left wrist pain from a fall, diagnosed with distal radius fracture, treated non-operatively, stable for discharge.",
+597931," 
 Name:  ___                     Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -14149,8 +14862,88 @@ ___
 - Incision care: Shower, no scrubbing, no baths for 6 weeks.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Obstetrics/Gynecology,,,Pelvic mass and uterine fibroid.,"Postmenopausal female with a left-sided pelvic mass found on routine exam. Imaging revealed a 7.9cm left ovarian mass and multi-fibroid uterus. Preoperative CA-125 was 17, and endometrial biopsy showed inactive endometrium. Presented for surgical management.",Breast Dysplasia; Hypercholesterolemia; Anxiety; Osteoarthritis; Hypothyroidism; Herpes; Leg muscle graft; Knee arthroscopy; Ganglion cyst removal; Thyroid lobe removal; G3P1; Post-menopausal,Hydrocodone-acetaminophen; Ibuprofen; Levothyroxine; Sertraline; Simvastatin; Valacyclovir,,low,"**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Female
+- **Service:** Obstetrics/Gynecology
+- **Attending:** [Redacted]
+
+**Admission Date:** [Redacted]
+**Discharge Date:** [Redacted]
+
+**Chief Complaint:**
+- Pelvic mass and uterine fibroid.
+
+**Major Surgical Procedure:**
+- Total abdominal hysterectomy, bilateral salpingo-oophorectomy.
+
+**History of Present Illness:**
+- Postmenopausal female with a left-sided pelvic mass found on routine exam. Imaging revealed a 7.9cm left ovarian mass and multi-fibroid uterus. Preoperative CA-125 was 17, and endometrial biopsy showed inactive endometrium. Presented for surgical management.
+
+**Past Medical History:**
+- Breast Dysplasia, Hypercholesterolemia, Anxiety, Osteoarthritis, Hypothyroidism, Herpes.
+- Surgeries: Leg muscle graft, knee arthroscopy, ganglion cyst removal, thyroid lobe removal.
+- OB/GYN: G3P1, post-menopausal, no history of abnormal Pap smears or STIs.
+
+**Family History:**
+- No history of ovarian, breast, uterine, or colon cancer.
+
+**Physical Exam on Discharge:**
+- Afebrile, vitals stable, no acute distress.
+- CV: Regular rate and rhythm.
+- Pulm: Clear to auscultation bilaterally.
+- Abd: Soft, appropriately tender, incision clean/dry/intact, no rebound/guarding.
+
+**Pertinent Lab Results:**
+- WBC: 12.1, RBC: 4.01, Hgb: 12.7, Hct: 37.8, MCV: 94, MCH: 31.8, MCHC: 33.7, RDW: 14.7, Platelets: [Redacted]
+- Neuts: 71.7, Monos: 5.6, Eos: 1.9, Baso: 0.5
+- Glucose: 100, UreaN: 11, Creat: 0.6, Na: 139, K: 4.4, Cl: 104, HCO3: 28, AnGap: 11
+- Calcium: 8.0, Phos: 3.2, Mg: 1.9
+
+**Brief Hospital Course:**
+- Post-surgery, pain managed with IV Dilaudid/Toradol, transitioned to PO Oxycodone and Ibuprofen. Foley catheter removed on post-op day 1. Patient tolerated regular diet, ambulated independently, and was discharged in stable condition.
+
+**Medications on Admission:**
+- Hydrocodone-acetaminophen, Ibuprofen, Levothyroxine, Sertraline, Simvastatin, Valacyclovir.
+
+**Discharge Medications:**
+1. Ibuprofen 600 mg PO Q6H PRN pain
+2. Docusate Sodium 100 mg PO BID
+3. Levothyroxine Sodium 150 mcg PO 2X/WEEK
+4. Levothyroxine Sodium 100 mcg PO 5X/WEEK
+5. Sertraline 100 mg PO DAILY
+6. Oxycodone-Acetaminophen (5mg-325mg) PO Q4H PRN pain
+
+**Discharge Disposition:**
+- Home
+
+**Discharge Diagnosis:**
+- Benign ovarian fibroma and fibroid uterus.
+
+**Discharge Condition:**
+- Mental Status: Clear and coherent.
+- Level of Consciousness: Alert and interactive.
+- Activity Status: Ambulatory - Independent.
+
+**Discharge Instructions:**
+- Take medications as prescribed.
+- Do not drive while taking narcotics.
+- Avoid combining narcotics with sedatives or alcohol.
+- No more than 4000mg acetaminophen in 24 hours.
+- No strenuous activity until post-op appointment.
+- No vaginal insertions for 12 weeks.
+- No heavy lifting (>10 lbs) for 6 weeks.
+- Regular diet allowed.
+- Safe to walk up stairs.
+- Incision care: Shower, no scrubbing, no baths for 6 weeks.
+
+**Follow-up Instructions:**
+- [Redacted]",
+785215," 
 Name:  ___                  Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -14471,8 +15264,88 @@ ___
 - Transferred to psychiatric care for ongoing suicidal ideation.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Medicine,,,"Hypoglycemia, Alcohol intoxication, Suicidality","Female with history of HCV, HIV, and multiple prior admissions for suicidal ideation. Presented with hypoglycemia (FSBG 42) and alcohol intoxication (EtOH level 117). Admitted to MICU for refractory hypoglycemia and close monitoring. Patient reported attempting suicide by drinking excessively.","HIV; Hepatitis C; Traumatic brain injury; Depression, panic attacks, polysubstance abuse",Bisacodyl 10 mg PO daily PRN; Docusate Sodium 100 mg PO BID; Folic Acid 1 mg PO daily; Multivitamins with minerals 1 tab PO daily; Polyethylene Glycol 17 g PO once; Senna 8.6 mg PO BID PRN; Thiamine 100 mg PO daily,,high,"--- NOTE ---
+**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Female
+- **Service:** Medicine
+- **Attending:** [Redacted]
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+
+**Chief Complaint:**
+- Hypoglycemia
+- Alcohol intoxication
+- Suicidality
+
+**History of Present Illness:**
+- Female with history of HCV, HIV, and multiple prior admissions for suicidal ideation.
+- Presented with hypoglycemia (FSBG 42) and alcohol intoxication (EtOH level 117).
+- Admitted to MICU for refractory hypoglycemia and close monitoring.
+- Patient reported attempting suicide by drinking excessively.
+
+**Past Medical History:**
+- HIV
+- Hepatitis C
+- Traumatic brain injury
+- Depression, panic attacks, polysubstance abuse
+
+**Physical Exam:**
+- **Admission Vitals:** T 37.3°C, HR 89, BP 104/51, RR 14, SpO2 100%
+- **Discharge Vitals:** T 98.3°F, HR 83, BP 106/73, RR 18, SpO2 100%
+- General: Well-appearing, no distress
+- HEENT: Pupils reactive, tattoo on right neck
+- CV: Regular rhythm, III/VI systolic ejection murmur
+- Lungs: Clear to auscultation bilaterally
+- Abdomen: Soft, non-tender
+- Neuro: Cranial nerves II-XII intact
+
+**Pertinent Results:**
+- **Admission Labs:** WBC 2.4, Hgb 7.7, Glucose 107, Na 136, K 3.4, ALT 49, AST 105
+- **Discharge Labs:** WBC 2.4, Hgb 7.7, Glucose 97, Na 139, K 3.7, ALT 49, AST 105
+- **CT Head:** No acute intracranial abnormality, encephalomalacia in left parietal lobe
+
+**Hospital Course:**
+1. **Hypoglycemia:** Resolved with eating, patient remained euglycemic.
+2. **Suicidality:** Active suicidal ideation, transferred to psychiatric care.
+3. **Alcohol Withdrawal:** No active withdrawal symptoms.
+4. **Hepatitis C:** Chronic, elevated transaminases likely due to recent alcohol ingestion.
+5. **HIV:** Consider re-initiating ARVs as outpatient.
+
+**Discharge Medications:**
+1. Bisacodyl 10 mg PO daily PRN
+2. Docusate Sodium 100 mg PO BID
+3. Folic Acid 1 mg PO daily
+4. Multivitamins with minerals 1 tab PO daily
+5. Polyethylene Glycol 17 g PO once
+6. Senna 8.6 mg PO BID PRN
+7. Thiamine 100 mg PO daily
+
+**Discharge Disposition:**
+- Transferred to Extended Care Facility
+
+**Discharge Diagnosis:**
+- Hypoglycemia secondary to poor PO intake
+- Suicidal ideation
+- Severe depression
+
+**Discharge Condition:**
+- Flat affect, active suicidal ideation
+- Alert and interactive
+- Ambulatory, independent
+
+**Discharge Instructions:**
+- Patient was admitted for low blood sugars likely due to poor intake and excessive alcohol consumption.
+- No further hypoglycemic episodes during hospital stay.
+- Transferred to psychiatric care for ongoing suicidal ideation.
+
+**Follow-up Instructions:**
+- [Redacted]
+--- END NOTE ---",
+398342," 
 Name:  ___              Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -14931,8 +15804,8 @@ ___
 - Rheumatology within [timeframe]
 - Primary care physician as needed
 
-**Note:** It was a pleasure taking care of you. Please adhere to the medication changes and follow-up instructions provided."
-" 
+**Note:** It was a pleasure taking care of you. Please adhere to the medication changes and follow-up instructions provided.",,M,Medicine,,,Left shoulder pain,Male with a history of diabetes mellitus (DM) and remote myocardial infarction (MI) presented with acute left shoulder pain for 5 days. MRI showed diffuse edema in the deltoid and trapezius muscles. Pain worsened with movement. Previous gout-like symptoms in hands resolved with prednisone. No recent trauma or medication changes.,Diabetes mellitus; Remote myocardial infarction; Hypertension; Arthritis,Atenolol 25 mg daily; Losartan 25 mg daily; Insulin glargine 50 units daily; Insulin lispro as per sliding scale; Nitroglycerin sublingual as needed; Lactulose 15 cc twice daily as needed; Aspirin 325 mg daily; Acetaminophen 500 mg TID; Docusate sodium 100 mg BID; Senna 8.6 mg BID as needed; Prednisone taper; Simvastatin 40 mg at bedtime; Outpatient physical therapy for shoulder,,medium,,
+250755," 
 Name:  ___.              Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -15224,8 +16097,8 @@ ___
 **Discharge Diagnosis:**
 - Bowel mass (pathology pending)
 
-**Thank you for allowing us to participate in your care. We wish you a speedy recovery.**"
-" 
+**Thank you for allowing us to participate in your care. We wish you a speedy recovery.**",,Male,Surgery,,,Ileocecal mass,Abnormal thickening of terminal ileum; endoscopy showed no mucosal lesion. Surgery for biopsy and resection.,BPH; bladder spasms; colitis; depression; diplopia; reflux; hyperlipidemia; osteoarthritis; sarcoidosis,Fluoxetine 20 mg daily; Simvastatin 40 mg daily; Sildenafil 25 mg as needed; Prednisone 10 mg daily; Meloxicam 15 mg daily; Calcium 500 mg; Acetaminophen 325 mg every 6 hours; Morphine 15 mg every 4 hours as needed; Docusate sodium 100 mg twice daily; Triamcinolone acetonide topical,,medium,,
+070336," 
 Name:  ___                   Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -15532,8 +16405,8 @@ ___
 - Manage J-tube site as instructed, call Dr. [Redacted] if it falls out.
 
 **Follow-up:**
-- With Dr. [Redacted] as an outpatient."
-" 
+- With Dr. [Redacted] as an outpatient.",,Male,Cardiothoracic,,,Esophageal cancer,Biopsy-proven intramucosal adenocarcinoma in high-grade dysplasia. Presented for resection.,GERD; Barrett's esophagus with high-grade dysplasia; Colon polyps,"Jevity Full Strength, Goal 105 mL x 18 hrs; Prevacid SoluTab 30 mg, once daily; Roxicet solution, as needed for pain; Docusate sodium 50 mg/5 mL, twice daily",Penicillins; Shellfish Derived,low,"Discharge Summary for Male patient, s/p esophagectomy for esophageal cancer, stable at discharge.",
+153224," 
 Name:  ___                    Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -15796,8 +16669,13 @@ ___
 - **Follow-up:** As instructed.
 
 **Facility:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Orthopaedics,,,Right knee pain,"Patient with PMH of HTN, HLD, hypothyroidism, DJD of right hip/knee s/p right THR, experienced a fall resulting in right knee pain. No other injuries reported.",Hypertension (HTN); Hyperlipidemia (HLD); Palpitations; Hypothyroidism; Osteopenia; GERD; Vitamin D deficiency; DJD of hip s/p right total hip arthroplasty,Atenolol 25 mg PO DAILY; Levothyroxine Sodium 75 mcg PO DAILY; Multivitamins 1 TAB PO DAILY; Pravastatin 80 mg PO DAILY; Acetaminophen 1000 mg PO Q6H PRN pain; Docusate Sodium 100 mg PO BID; Enoxaparin Sodium 40 mg SC Q24H; Oxycodone 5 mg PO Q4H PRN pain; Vitamin D [Redacted] UNIT PO DAILY,,high,"**Discharge Summary**
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Female",
+860069," 
 Name:  ___                    Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -16104,8 +16982,84 @@ ___
 - **When to Contact:** Severe pain unrelieved by medication or fever over 101.5°F.
 
 **Follow-up Instructions:**
-- Follow up in two weeks. Further details to be provided by the attending physician."
-" 
+- Follow up in two weeks. Further details to be provided by the attending physician.",,Female,Orthopaedics,,,Right shoulder pain,A [Redacted]-year-old woman with a history of severe rheumatoid arthritis (RA) experienced a mechanical fall resulting in right arm pain. She was transferred from an outside hospital and diagnosed with a right humerus fracture/dislocation.,RA; hypertension (HTN); hyperlipidemia (HLD); shingles; herpetic encephalopathy; knee arthritis; back pain; urinary incontinence; status post breast reduction,Acetaminophen 1000 mg PO Q8H; Alendronate Sodium 70 mg PO QFRI; Atorvastatin 20 mg PO DAILY; Calcium Carbonate 1250 mg PO Q24H; Docusate Sodium 100 mg PO BID; Milk of Magnesia 30 ml PO BID PRN; Nexium 40 mg PO QD; Oxycodone 2.5 mg PO Q4H PRN; Prednisone 5 mg PO DAILY; Propranolol LA 80 mg PO DAILY; Senna 1 TAB PO BID; Vitamin D 1000 UNIT PO DAILY; Aspirin 325 mg PO DAILY for 6 weeks,,medium,"--- NOTE ---
+
+**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Female
+- **Service:** Orthopaedics
+- **Attending:** [Redacted]
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+
+**Chief Complaint:**
+- Right shoulder pain
+
+**Major Surgical Procedure:**
+- ORIF (Open Reduction and Internal Fixation) of the right humerus
+
+**History of Present Illness:**
+- A [Redacted]-year-old woman with a history of severe rheumatoid arthritis (RA) experienced a mechanical fall resulting in right arm pain. She was transferred from an outside hospital and diagnosed with a right humerus fracture/dislocation.
+
+**Past Medical History:**
+- RA, hypertension (HTN), hyperlipidemia (HLD), shingles, herpetic encephalopathy, knee arthritis, back pain, urinary incontinence, status post breast reduction.
+
+**Social History:**
+- Lives in a retirement facility, minimal smoking, no current alcohol or drug use.
+
+**Physical Exam:**
+- **Admission:** Alert and oriented x3, calm, right upper extremity (RUE) tender over proximal humerus, pain with shoulder movement, stable elbow, intact pulses.
+- **Discharge:** Similar findings with clean, dry, intact incision.
+
+**Pertinent Results:**
+- Elevated glucose, urea nitrogen, creatinine, WBC, and neutrophils. Low RBC, hemoglobin, and hematocrit.
+
+**Brief Hospital Course:**
+- Admitted for right humerus fracture/dislocation. Underwent ORIF, tolerated well. Post-op recovery included IV fluids, pain management, antibiotics, and anticoagulation. Transitioned to oral medications and regular diet by POD#1. Discharged to rehab with stable vitals, controlled pain, and clean incisions.
+
+**Medications on Admission:**
+- Inderal LA, Nexium, folic acid, prednisone, methotrexate, leucovorin, Vitamin D3, lovastatin, alendronate.
+
+**Discharge Medications:**
+1. Acetaminophen 1000 mg PO Q8H
+2. Alendronate Sodium 70 mg PO QFRI
+3. Atorvastatin 20 mg PO DAILY
+4. Calcium Carbonate 1250 mg PO Q24H
+5. Docusate Sodium 100 mg PO BID
+6. Milk of Magnesia 30 ml PO BID PRN
+7. Nexium 40 mg PO QD
+8. Oxycodone 2.5 mg PO Q4H PRN
+9. Prednisone 5 mg PO DAILY
+10. Propranolol LA 80 mg PO DAILY
+11. Senna 1 TAB PO BID
+12. Vitamin D 1000 UNIT PO DAILY
+13. Aspirin 325 mg PO DAILY for 6 weeks
+
+**Discharge Disposition:**
+- Extended Care Facility
+
+**Discharge Diagnosis:**
+- Right proximal humerus fracture/dislocation
+
+**Discharge Condition:**
+- Stable
+
+**Discharge Instructions:**
+- **Medications:** Follow prescribed pain medication regimen, take aspirin 325 mg daily for 6 weeks, and use stool softeners to prevent constipation.
+- **Dressing:** Keep dressing for 48 hours, then remove but leave tape strips on incisions.
+- **Showering:** Allowed after 48 hours, avoid immersion for 7-10 days.
+- **Activity:** Wear sling, avoid using the operative arm, and follow physical therapy instructions.
+- **Ice Packs:** Use regularly to reduce swelling and pain.
+- **When to Contact:** Severe pain unrelieved by medication or fever over 101.5°F.
+
+**Follow-up Instructions:**
+- Follow up in two weeks. Further details to be provided by the attending physician.
+--- END NOTE ---",
+109909," 
 Name:  ___                 Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -16600,8 +17554,8 @@ ___
 - [Redacted] (daughter)
 
 **Summary:**
-Patient was admitted for throat pain, confusion, and worsening left hemiparesis. Managed for esophagitis, malnutrition, thrombus, and lung cancer. Discharged home with services and appropriate medications."
-" 
+Patient was admitted for throat pain, confusion, and worsening left hemiparesis. Managed for esophagitis, malnutrition, thrombus, and lung cancer. Discharged home with services and appropriate medications.",,Female,Medicine,,,"Throat pain, confusion, worsening left hemiparesis","Patient with stage IIIA squamous cell carcinoma of the lung, history of multiple strokes with residual left hemiparesis, hypertension, dyslipidemia, and prior colon cancer (post-hemicolectomy). Transferred for continuity of care due to confusion and worsening left upper extremity weakness.",stage IIIA squamous cell carcinoma of the lung; history of multiple strokes with residual left hemiparesis; hypertension; dyslipidemia; prior colon cancer (post-hemicolectomy); H. pylori gastritis; severe protein-calorie malnutrition; tobacco abuse,Enoxaparin Sodium 80 mg SC daily; Morphine Sulfate 20 mg/mL PO Q4H PRN severe pain; Naloxone Nasal Spray 4 mg IH once; Omeprazole 40 mg PO daily; Lidocaine Viscous 2% 15 mL PO QID PRN throat pain; Nicotine Patch 21 mg/day TD daily; Oxybutynin 5 mg PO daily; Potassium Chloride 20 mEq PO daily,Iodine-containing substances,medium,,
+390080," 
 Name:  ___      Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -16904,8 +17858,8 @@ ___
 - Contact doctor for fever > 101.5°F, vomiting, or incision issues
 
 **Follow-up Instructions:**
-- ___"
-" 
+- ___",,Female,Urology,,,Adrenal Mass,Right 10 cm nonfunctional adrenal mass,Hypertension; 3 vaginal deliveries; appendectomy,Lisinopril-hydrochlorothiazide; Omeprazole; Raloxifene; Simvastatin; Citracal + D3; Vitamin D; Centrum Silver Women,,low,,
+372976," 
 Name:  ___                Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -17135,8 +18089,60 @@ ___
 - No changes to current medications.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Male,Medicine,,,Perianal pain,"Male with hypertension, presenting with perianal pain and purulent discharge. Longstanding issues with ""hemorrhoids"" and recent worsening of symptoms, including significant pain and occasional bloody drainage. No relief from Anusol HC suppository. Recently prescribed augmentin and mupirocin by PCP without improvement.",hypertension,Lisinopril 40 mg PO daily,,medium,"**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Male
+- **Service:** Medicine
+- **Attending:** [Redacted]
+
+**Admission and Discharge:**
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+
+**Chief Complaint:**
+- Perianal pain
+
+**History of Present Illness:**
+- Male with hypertension, presenting with perianal pain and purulent discharge. Longstanding issues with ""hemorrhoids"" and recent worsening of symptoms, including significant pain and occasional bloody drainage. No relief from Anusol HC suppository. Recently prescribed augmentin and mupirocin by PCP without improvement.
+
+**Physical Exam:**
+- Multiple nodular/pustular lesions on the left buttock and gluteal folds, some draining pus. Condylomatous lesions on the right perianal region. No anal fissures or external hemorrhoids observed.
+
+**Pertinent Results:**
+- **CT Pelvis:** Soft tissue thickening in the perianal region extending along the left buttock, no fluid collection.
+- **Labs:** WBC 13.7, urine analysis unremarkable.
+
+**Hospital Course:**
+- Admitted for perianal pain and purulent discharge. No signs of cellulitis or abscess on CT. Dermatology appointment rescheduled for the following morning. Discharged in stable condition with instructions to keep the Dermatology appointment.
+
+**Medications:**
+- **On Admission:** Lisinopril 40 mg PO daily
+- **On Discharge:** Lisinopril 40 mg PO daily
+
+**Discharge Disposition:**
+- Home
+
+**Discharge Diagnosis:**
+- Chronic lesions
+- Hypertension
+
+**Discharge Condition:**
+- Mental Status: Clear and coherent
+- Level of Consciousness: Alert and interactive
+- Activity Status: Ambulatory, independent
+
+**Discharge Instructions:**
+- Keep Dermatology appointment tomorrow morning for lesion evaluation.
+- Complete the prescribed antibiotics.
+- No changes to current medications.
+
+**Follow-up Instructions:**
+- [Redacted]",
+759527," 
 Name:  ___                 Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -17564,8 +18570,8 @@ ___
 - Weigh daily and report significant weight gain to PCP.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Medicine,,,Hematuria with supratherapeutic INR,"Female with chronic atrial fibrillation (on anticoagulation), hypertension, obesity, and IgG multiple myeloma presented with hematuria and an INR of 10.7. Managed with Vitamin K and holding Coumadin. INR improved to 2.6.",Atrial Fibrillation; Multiple Myeloma; Hypertension; Obesity; Fibroids (s/p TAH),Amlodipine 2.5 mg PO daily; Clarithromycin 250 mg PO daily; Furosemide 40 mg PO daily; Lisinopril 20 mg PO daily; Metoprolol Tartrate 100 mg PO TID; Vitamin D 1000 UNIT PO daily; Lenalidomide 15 mg PO daily; Potassium Chloride 10 mEq PO daily; Dexamethasone 20 mg PO weekly; Zoledronic Acid 4 mg/5 mL injection every 3 months; Warfarin 5 mg PO daily,,high,,
+481522," 
 Name:  ___             Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -17905,8 +18911,8 @@ ___
 - New weakness or sensory changes in limbs
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Male,Neurosurgery,,,"L2 fracture, back pain","The patient, a Ph.D. researcher, sustained an L2 vertebra fracture and leg injury after jumping from a second-floor window during a terrorist attack. Initial treatment was received abroad. Persistent back pain led to the decision for surgical intervention.",Mitral valve prolapse; Headaches; GERD,Gabapentin; Lansoprazole; Oxycodone; Tramadol; Cialis; Calcium Carbonate; Acetaminophen; Docusate Sodium; Tizanidine; Cyanocobalamin; Folic Acid; Multivitamins; Vitamin D,,medium,"L2 fracture, back pain",
+021969," 
 Name:  ___                 Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -18261,8 +19267,91 @@ ___
 - Continue physical therapy at home for strength and balance. Stop taking hydrochlorothiazide. No other medication changes.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,F,Medicine,,,Failure to thrive,"Patient presented with gait instability, headaches, and poor oral intake. She uses a walker and has had several falls in the past year. She has a poor appetite but denies gastrointestinal symptoms. Chronic headaches are intermittent and somewhat responsive to Tylenol. No significant findings in the ED.",Hypertension; Hyperlipidemia; CAD; Headaches; Nephrolithiasis; Cataracts; Otitis media; Syncope (?sick sinus syndrome); s/p CCY,Hydrochlorothiazide; Oxybutynin; Protonix; Simvastatin; Aspirin; Colace; Multivitamin with iron,Nifedipine ER; Amitriptyline; Prilosec OTC; Terazosin; Amlodipine; Atenolol; Oxybutynin; Hydrochlorothiazide,medium,"**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+- **Date of Birth:** [Redacted]
+- **Sex:** F
+- **Service:** Medicine
+- **Attending:** [Redacted]
+
+**Allergies:**
+- Nifedipine ER, Amitriptyline, Prilosec OTC, Terazosin, Amlodipine, Atenolol, Oxybutynin, Hydrochlorothiazide
+
+**Chief Complaint:**
+- Failure to thrive
+
+**Major Surgical or Invasive Procedure:**
+- None
+
+**History of Present Illness:**
+- Patient presented with gait instability, headaches, and poor oral intake. She uses a walker and has had several falls in the past year. She has a poor appetite but denies gastrointestinal symptoms. Chronic headaches are intermittent and somewhat responsive to Tylenol. No significant findings in the ED.
+
+**Past Medical History:**
+- Hypertension, Hyperlipidemia, CAD, Headaches, Nephrolithiasis, Cataracts, Otitis media, Syncope (?sick sinus syndrome), s/p CCY
+
+**Social History:**
+- [Redacted]
+
+**Family History:**
+- Mother deceased from breast cancer, father and son deceased from heart attack.
+
+**Physical Exam:**
+- Vitals: Stable
+- HEENT: Dry mucous membranes, right TM with white exudate, left TM with perforation
+- Neck: Supple, no JVD
+- Pulm: Clear lungs
+- CV: Bradycardic, soft systolic murmur
+- Abd: Soft, non-tender, guaiac negative
+- Extrem: Warm, no edema
+- Neuro: Alert, no focal deficits, gait with short steps, negative Romberg's
+
+**Pertinent Results:**
+- Labs: Hyponatremia, mild anemia, normal TSH, B12, folate, and other relevant labs
+- Imaging: CXR unremarkable, ECG showed sinus bradycardia with prior MI changes
+
+**Brief Hospital Course:**
+- **Gait Instability:** Likely multifactorial including dehydration and hyponatremia. No clear signs of Parkinson's. Outpatient neurology follow-up scheduled.
+- **Hyponatremia:** Likely hypovolemic, improved with fluids. HCTZ held on discharge.
+- **Bradycardia:** Monitored, outpatient cardiology follow-up scheduled.
+- **Noncardiac Chest Pain:** Resolved with Maalox and Tylenol, ruled out for MI.
+- **Headaches:** Chronic, likely cervical in etiology, managed with Tylenol.
+- **Anemia:** Managed with regular epo and iron infusions, no recent bleeding.
+- **Hypertension:** Managed with current medications, HCTZ held.
+
+**Medications on Admission:**
+- Hydrochlorothiazide, Oxybutynin, Protonix, Simvastatin, Aspirin, Colace, Multivitamin with iron
+
+**Discharge Medications:**
+1. Pantoprazole 40 mg daily
+2. Simvastatin 10 mg daily
+3. Aspirin 81 mg daily
+4. Docusate Sodium 100 mg BID
+5. Multivitamin daily
+6. Oxybutynin 5 mg daily
+
+**Discharge Disposition:**
+- Home with service
+
+**Discharge Diagnosis:**
+- **Primary:** Dehydration, Gait instability, Failure to thrive, Noncardiac chest pain
+- **Secondary:** Hypertension, Hyperlipidemia, CAD, Chronic headaches, Nephrolithiasis, Cataracts
+
+**Discharge Condition:**
+- Mental Status: Clear and coherent
+- Level of Consciousness: Alert and interactive
+- Activity Status: Ambulatory with assistance (walker or cane)
+
+**Discharge Instructions:**
+- Continue physical therapy at home for strength and balance. Stop taking hydrochlorothiazide. No other medication changes.
+
+**Follow-up Instructions:**
+- [Redacted]",
+705373," 
 Name:  ___                  Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -18594,8 +19683,8 @@ ___
 - Fever >101°F, increased pain, swelling, heavy drainage, inability to move bowels or urinate, heavy bleeding.
 
 **Follow-Up:**
-- [Redacted]"
-" 
+- [Redacted]",,Male,Surgery,,,Perirectal abscess,"Patient with history of hypertension (HTN), hyperlipidemia (HLD), coronary artery disease (CAD) status post myocardial infarction (MI), and previous perirectal abscess presented with right-sided perianal pain for 4 days. No spontaneous drainage this time, leading to ED visit and surgical consultation.",HTN; HLD; CAD complicated by MI; status post percutaneous coronary intervention (PCI) with stent; history of perirectal abscess,Aspirin 81 mg PO daily; Metoprolol Succinate ER 25 mg daily,Lisinopril,medium,,
+561129," 
 Name:  ___                  Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -18908,8 +19997,8 @@ ___
 - Continue linezolid and follow a low tyramine diet. Follow up with your doctor.
 
 **Follow-up Instructions:**
-- ___"
-" 
+- ___",,Female,Medicine,,,Cellulitis,"Patient with A. fib on rivaroxaban, hypertension, and venous stasis presented with 7 days of increasing erythema on the left leg after trauma. Initially treated with clindamycin, but erythema worsened, leading to hospital admission for IV antibiotics.",Atrial fibrillation; Hypertension; Venous stasis; Depression; Sleep disorder,Linezolid ___ mg PO Q12H for 10 days; Acetaminophen 325-650 mg PO Q6H PRN pain; Docusate Sodium 100 mg PO BID; Hydrochlorothiazide 25 mg PO DAILY; Lamotrigine 300 mg PO HS; Losartan Potassium 50 mg PO DAILY; Metoprolol Tartrate 25 mg PO BID; Multivitamins 1 TAB PO DAILY; Rivaroxaban 20 mg PO DAILY; Adderall XR 40 mg PO DAILY,,medium,,
+196623," 
 Name:  ___               Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -19394,8 +20483,106 @@ ___
 - [Redacted]
 
 **Discharge Summary Prepared By:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Medicine,,,Fall from wheelchair,"Female with a history of peripheral vascular disease, hypertension, coronary artery disease, emphysema, and pelvic fracture s/p hip replacement presented after a fall from her wheelchair, resulting in a forehead laceration and a head CT showing a small left frontal subarachnoid hemorrhage (SAH).",Peripheral vascular disease; Hypertension; Coronary artery disease; Emphysema; Pelvic fracture,1. Cefpodoxime Proxetil 400 mg PO Q12H for 2 doses; 2. Metoprolol Succinate XL 25 mg PO daily; 3. Tramadol 50 mg PO TID PRN; 4. Acetaminophen 1000 mg PO Q8H; 5. Aspirin 81 mg PO daily; 6. Atorvastatin 40 mg PO QPM; 7. Bisacodyl PRN; 8. Calcium + Vitamin D daily; 9. Docusate Sodium 100 mg PO BID; 10. Donepezil 5 mg PO QHS; 11. Duloxetine 60 mg PO daily; 12. Florastor 250 mg PO BID; 13. Loratadine 10 mg PO daily; 14. Milk of Magnesia PRN; 15. Multivitamins daily; 16. Nitroglycerin SL PRN; 17. Omeprazole 20 mg PO BID; 18. Ondansetron 4 mg PO Q8H PRN; 19. Senna 17.2 mg PO BID; 20. Gabapentin and Lisinopril held,Sulfa (Sulfonamide Antibiotics); Nitrofurantoin,high,"--- NOTE ---
+**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Female
+- **Service:** Medicine
+- **Attending:** [Redacted]
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+
+**Allergies:**
+- Sulfa (Sulfonamide Antibiotics)
+- Nitrofurantoin
+
+**Chief Complaint:**
+- Fall from wheelchair
+
+**History of Present Illness:**
+- Female with a history of peripheral vascular disease, hypertension, coronary artery disease, emphysema, and pelvic fracture s/p hip replacement presented after a fall from her wheelchair, resulting in a forehead laceration and a head CT showing a small left frontal subarachnoid hemorrhage (SAH).
+
+**Past Medical History:**
+- Peripheral vascular disease
+- Hypertension
+- Coronary artery disease
+- Emphysema
+- Pelvic fracture
+
+**Past Surgical History:**
+- Right hip replacement
+
+**Physical Exam:**
+- **Admission:** Alert, oriented, forehead laceration sutured, clear lungs, regular heart rate, soft abdomen, warm extremities.
+- **Discharge:** Alert, oriented, improving ecchymosis, clear lungs, regular heart rate, soft abdomen, no edema, mild tenderness in left shoulder, large hematoma on left hip/buttock.
+
+**Pertinent Results:**
+- **Admission Labs:** Elevated WBC, low RBC, Hgb, Hct, normal electrolytes.
+- **Discharge Labs:** Improved WBC, low RBC, Hgb, Hct.
+- **Imaging:** Severe T12 compression fracture, multiple rib fractures, acute right L1 transverse process fracture, mild left frontal SAH, no DVT in left lower extremity, normal TTE with moderate aortic stenosis.
+- **Microbiology:** Urine culture positive for E. coli, sensitive to multiple antibiotics.
+
+**Hospital Course:**
+- **Encephalopathy:** Likely due to UTI and trauma. Treated with antibiotics, improved to baseline.
+- **SAH:** Stable on repeat CT, no surgical intervention needed, managed with aspirin and heparin.
+- **Fractures:** Likely chronic, managed with pain control and rehab, follow-up with spine clinic recommended.
+- **Fall:** Likely multifactorial, including UTI and medications. Adjusted medications accordingly.
+- **UTI:** Treated with ceftriaxone, discharged with cefpodoxime.
+- **Anemia:** Treated with blood transfusion, stable thereafter.
+
+**Discharge Medications:**
+1. Cefpodoxime Proxetil 400 mg PO Q12H for 2 doses
+2. Metoprolol Succinate XL 25 mg PO daily
+3. Tramadol 50 mg PO TID PRN
+4. Acetaminophen 1000 mg PO Q8H
+5. Aspirin 81 mg PO daily
+6. Atorvastatin 40 mg PO QPM
+7. Bisacodyl PRN
+8. Calcium + Vitamin D daily
+9. Docusate Sodium 100 mg PO BID
+10. Donepezil 5 mg PO QHS
+11. Duloxetine 60 mg PO daily
+12. Florastor 250 mg PO BID
+13. Loratadine 10 mg PO daily
+14. Milk of Magnesia PRN
+15. Multivitamins daily
+16. Nitroglycerin SL PRN
+17. Omeprazole 20 mg PO BID
+18. Ondansetron 4 mg PO Q8H PRN
+19. Senna 17.2 mg PO BID
+20. Gabapentin and Lisinopril held
+
+**Discharge Diagnosis:**
+- Small left frontal SAH
+- T12 compression fracture
+- Urinary tract infection
+- Acute right L1 transverse process fracture and T10/T11 spinous process fractures
+
+**Discharge Condition:**
+- Mental Status: Confused at times
+- Level of Consciousness: Alert and interactive
+- Activity Status: Ambulatory with assistance
+
+**Discharge Instructions:**
+- Follow up with spine clinic for fractures
+- Sutures to be removed on [date]
+- Discuss restarting blood pressure medications with primary care doctor
+- Further evaluation of anemia may be needed
+
+**Follow-up Instructions:**
+- [Redacted]
+
+**Facility:**
+- [Redacted]
+
+**Discharge Summary Prepared By:**
+- [Redacted]
+--- END NOTE ---",
+665787," 
 Name:  ___                       Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -19666,8 +20853,8 @@ ___
 - **Emergency Signs:** Sudden numbness, confusion, trouble walking, severe headaches.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Male,Neurosurgery,,,"Seizures, headaches, left frontal cavernous malformation","Diagnosed with left inferolateral frontal lobe cavernous malformation several years ago. Recent episodes of right tongue twitching, dysarthria, and partial seizures. On Keppra 1000 mg daily. Recent CT indicated hemorrhage within the lesion. Decision made for surgical resection due to continuous seizures and lesion proximity to brain surface.",Left frontal cavernous malformation with seizures and headaches,Keppra 1gm daily; lorazepam (PRN seizures); isotretinoin,Penicillins,high,"Seizures, headaches, left frontal cavernous malformation",
+756369," 
 Name:  ___                  Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -20246,8 +21433,8 @@ ___
 **Discharge Condition:**
 - Mental Status: Attentive, limited questions
 - Level of Consciousness: Alert, interactive
-- Activity Status: Out of bed with"
-" 
+- Activity Status: Out of bed with",,M,Medicine,,,Persistent hypotension and post-cardiac arrest,"Patient with a history of hypertension and autism transferred from OSH after a cardiac arrest. Presented with lethargy, malaise, and diarrhea. Experienced syncope and pulseless electrical activity (PEA) arrest, treated with CPR and medications. Transferred for further management.",hypertension; autism,Ceftriaxone; Colchicine; Diazepam; Pantoprazole; Sertraline; Metronidazole; Warfarin; Metoprolol Succinate XL; Atenolol; Indomethacin,,high,,
+984648," 
 Name:  ___                    Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -20518,8 +21705,8 @@ ___
 - Keep incision clean and dry
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Obstetrics/Gynecology,,,"Arrest of descent, Gestational hypertension, Incisional cellulitis with wound abscess","G3P0 at 37 weeks 1 day with elevated blood pressures (up to 142/70). Denied headache, visual changes, epigastric or RUQ pain, contractions, vaginal bleeding, or loss of fluid. Positive fetal movement.",Asthma with acute exacerbation; Eczematous dermatitis; History of tobacco use,Prenatal Vitamins; Docusate Sodium 100 mg PO daily (PRN constipation); Symbicort 160-4.5 mcg/actuation inhalation BID; ProAir HFA 90 mcg/actuation 2 puffs Q4H (PRN wheezing),Sulfamethoxazole; Penicillins,medium,,
+172239," 
 Name:  ___                 Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -20859,8 +22046,81 @@ ___
 - Continue physical therapy assessment and care at group home.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Male,Medicine,,,Multiple falls at group home,"Admitted for multiple falls over the past two days. Patient claims being pushed, but group home supervisor reports mechanical falls. Patient has been lethargic and possibly non-compliant with medications. Complaints included tooth pain, lower abdominal pain, and recent constipation. Initial ED workup including head CT, CXR, pelvis, and lumbar spine films were negative.",Psychosis; Diabetes; COPD,Docusate Sodium; Clozapine; Ranitidine; Metformin; Aspirin; Lisinopril; Gemfibrozil; Acetaminophen; Fluticasone; Tiotropium; Glargine,,medium,"--- NOTE ---
+**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Male
+- **Service:** Medicine
+- **Attending:** [Redacted]
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+
+**Allergies:**
+- No Known Allergies / Adverse Drug Reactions
+
+**Chief Complaint:**
+- Multiple falls at group home
+
+**Major Surgical or Invasive Procedures:**
+- None
+
+**History of Present Illness:**
+- Admitted for multiple falls over the past two days. Patient claims being pushed, but group home supervisor reports mechanical falls. Patient has been lethargic and possibly non-compliant with medications. Complaints included tooth pain, lower abdominal pain, and recent constipation. Initial ED workup including head CT, CXR, pelvis, and lumbar spine films were negative.
+
+**Past Medical History:**
+- Psychosis
+- Diabetes
+- COPD
+
+**Physical Exam:**
+- **Admission:** Disheveled, odd affect, cracked tooth, mild lower abdominal tenderness, A&Ox1.
+- **Discharge:** Similar findings, stable vitals, no new abnormalities.
+
+**Pertinent Results:**
+- **Admission Labs:** Elevated WBC, glucose, and lactate. Other values within normal limits.
+- **Discharge Labs:** Improved WBC and glucose levels.
+- **Imaging:** No acute findings on CXR, pelvis/lumbar spine X-ray, or head CT.
+- **EKG:** Sinus rhythm, no acute ischemia.
+
+**Brief Hospital Course:**
+- **Mechanical Fall:** No evidence of syncope. Negative troponins, stable EKG, and no falls during hospitalization. Recommended further therapy at group home.
+- **Psychosis:** Continued on home medications (Clozapine). Mental status returned to baseline.
+- **Dysuria:** Inconsistent history, UA not indicative of UTI, no antibiotics given, symptoms resolved.
+- **Diabetes:** Adjusted Lantus dosage to 55 units qam, restarted Metformin.
+- **COPD:** Continued home medications (fluticasone and tiotropium).
+
+**Medications on Admission:**
+- Docusate Sodium, Clozapine, Ranitidine, Metformin, Aspirin, Lisinopril, Gemfibrozil, Acetaminophen, Fluticasone, Tiotropium, Glargine.
+
+**Discharge Medications:**
+- Acetaminophen, Aspirin, Clozapine, Docusate Sodium, Fluticasone, Gemfibrozil, Glargine, Lisinopril, Ranitidine, Tiotropium, Metformin.
+
+**Discharge Disposition:**
+- Home with Service
+
+**Facility:**
+- [Redacted]
+
+**Discharge Diagnosis:**
+- Primary: Mechanical fall
+- Secondary: Psychosis, diabetes, COPD
+
+**Discharge Condition:**
+- Mental Status: Sometimes confused
+- Level of Consciousness: Alert and interactive
+- Activity Status: Ambulatory with assistance (walker or cane)
+
+**Discharge Instructions:**
+- Continue physical therapy assessment and care at group home.
+
+**Follow-up Instructions:**
+- [Redacted]
+--- END NOTE ---",
+279571," 
 Name:  ___                       Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -21068,8 +22328,8 @@ ___
 - Tylenol as needed
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",37,Female,Obstetrics/Gynecology,,,"Pelvic pain, ruptured ectopic pregnancy",37-year-old G2P0 (TAB1) transferred for early pregnancy with constant left lower quadrant pain. Status post right salpingo-oophorectomy (RSO). Ultrasound showed an enlarged hyperstimulated left ovary with normal flow. Status post in vitro fertilization (IVF) with embryo transfer.,Infertility; ovarian cysts; Laparoscopic surgery; RSO for ovarian cyst,Polysaccharide Iron Complex; Acetaminophen; Oxycodone-Acetaminophen,Sulfasalazine; Sulfa (hives),high,"Pelvic pain, ruptured ectopic pregnancy",
+701162," 
 Name:  ___              Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -21420,8 +22680,8 @@ ___
 - Continue medications as prescribed, avoid alcohol, follow up in GI clinic, recheck INR next week. Monitor for symptoms like fever, chest pain, further black/red material in ostomy bag, and significant weight changes.
 
 **Follow-up:**
-- [Redacted]"
-" 
+- [Redacted]",,M,Medicine,,,Melena,"An elderly male with a history of CAD (s/p bare metal stents), systolic dysfunction (EF 35%), chronic atrial fibrillation on warfarin, VF arrest (s/p pacemaker and ICD placement), and rectal cancer (s/p resection) presented with melena. He noticed darker stools in his ostomy bag 10 days prior to admission. He denied other symptoms like nausea, vomiting, or abdominal pain. He was found to have grossly guaiac positive stools and was admitted for further evaluation.",Coronary Artery Disease; Systolic dysfunction (EF 35%); Chronic atrial fibrillation; VF arrest s/p pacemaker and ICD; Rectal cancer s/p resection; Hypertension,Lisinopril 5 mg daily; Metoprolol Succinate 25 mg daily; Furosemide 20 mg QPM; Pantoprazole 40 mg BID for 4 weeks; Amitriptyline 25 mg HS; Aspirin 81 mg daily; Warfarin 2 mg twice a week and 2 mg 5X/week; Furosemide 40 mg QAM,Penicillins; Erythromycin Base; Streptomycin; Citric Acid; Atenolol,medium,,
+426368," 
 Name:  ___                 Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -21704,8 +22964,8 @@ ___
 - Call with any questions or concerns
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Male,Cardiothoracic,,,Elective cardiac catheterization,"Male with history of CAD, previous LAD POBA, DES to RCA, HTN, HLD, presented for elective cardiac catheterization due to unstable angina. Found to have 2-vessel disease with significant stenosis.","Diabetes; Dyslipidemia; Hypertension; CAD with previous interventions (LAD angioplasty/POBA, DES to RCA); Dupuytren's contracture (left hand)",Atenolol 25 mg daily; Vytorin (ezetimibe-simvastatin); Lisinopril 10 mg daily; Vitamin D daily; Aspirin 325 mg daily; Ascorbic Acid PRN,,high,,
+302198," 
 Name:  ___.             Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -22143,8 +23403,8 @@ ___
 - Follow-up with cardiologist Dr. ___ for further evaluation of aortic regurgitation and stress test results.
 
 **Follow-up Instructions:**
-- ___"
-" 
+- ___",,M,Medicine,,,"Abnormal Stress Test, New Aortic Insufficiency (AI)","Patient with CAD (s/p DES to LAD) presented for routine stress echo, found to have inducible ischemia and severe aortic insufficiency. Developed left shoulder pain and ST changes on EKG during treadmill test. Echocardiography showed 4+ aortic regurgitation. Asymptomatic otherwise, exercises regularly, no significant symptoms.","CAD (s/p DES to LAD); Prostate cancer (s/p prostatectomy); Hodgkin's Lymphoma (s/p splenectomy, chemotherapy, radiation); Gout; Tonsillectomy; Spontaneous subarachnoid hemorrhage; Hemorrhoids; Herpes zoster/simplex; Hyperlipidemia; Asthma; Peptic ulcer disease",testosterone; omega-3; arginine; magnesium citrate; guaifenesin; pravastatin; nitroglycerin; budesonide; clopidogrel; aspirin; diltiazem; niacin,Penicillins; Tetracycline Analogues; Amoxicillin; IV Dye; Iodine Containing Contrast Media; Lactose,medium,"Patient with CAD (s/p DES to LAD) presented for routine stress echo, found to have inducible ischemia and severe aortic insufficiency.",
+019847," 
 Name:  ___                  Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -22632,8 +23892,8 @@ ___
 - Recheck blood pressure and adjust medications as needed.
 - Continue Keppra 1500 mg BID, with potential adjustment to 1250 mg BID if needed.
 - Follow up with surgery for postoperative check.
-- Establish care with a new PCP and cardiologist for peripheral vascular disease management."
-" 
+- Establish care with a new PCP and cardiologist for peripheral vascular disease management.",,Female,Medicine,,,"Seizures, Abdominal pain",Patient presented with a generalized tonic-clonic seizure and abdominal pain. Diagnosed with gallstone pancreatitis and right renal artery stenosis. Seizures controlled with Keppra. Underwent cholecystectomy.,Hypertension (HTN); Deep Vein Thrombosis (DVT); Internal bleed from small intestine; Tubal ligation; Plantar wart removal; Groin procedure; Colonoscopies,Amlodipine 10 mg daily; Aspirin 81 mg daily; Atorvastatin 40 mg daily; Labetalol 400 mg BID; Levetiracetam 1500 mg BID; Oxycodone 10 mg Q4H PRN; Acetaminophen 650 mg Q6H PRN; Lisinopril 40 mg daily; Famotidine 20 mg BID,,high,,
+871297," 
 Name:  ___                     Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -22887,8 +24147,8 @@ ___
 - Keep follow-up appointments.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Obstetrics/Gynecology,,,Urinary frequency and urgency,Diagnosed with stage III cystocele and stage I vaginal prolapse. Severe vaginal atrophy despite Vagifem. Elected for surgical repair after reviewing treatment options.,Breast cancer survivor; Anxiety; Arthritis; Acid reflux; Low back pain; Osteopenia; Vaginal prolapse,Clonazepam; Ibandronate; Naratriptan; Simvastatin; Sucralfate; ASA (held); Vagifem; Vitamins,Phenothiazines; Epinephrine; PPI; Nitrous Oxide,low,,
+159240," 
 Name:  ___                  Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -23091,8 +24351,8 @@ ___
 - Contact medical records at [Redacted] to send records to your home doctor.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Obstetrics/Gynecology,,,Presumed ectopic pregnancy,"G1 with LMP [Redacted] presented with severe abdominal pain after methotrexate (MTX) treatment. Pain was initially mild but became severe and unresponsive to Tylenol. Pain was across the lower abdomen, more on the left side. Patient also had vaginal bleeding (~3 pads/day) without clots.",,Percocet 7.5-325 mg Tablet,,medium,"Presumed ectopic pregnancy presenting with severe abdominal pain after methotrexate treatment, hemodynamically stable with no acute distress.",
+796196," 
 Name:  ___                 Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -23383,8 +24643,8 @@ ___
 - Follow-up: Return for follow-up in one month with surveillance duplex.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Surgery,,,Right leg/foot pain,Patient with a history of right above-knee popliteal to [Redacted] bypass for a thrombosed popliteal aneurysm presented with worsening right foot claudication.,DVT right popliteal vein; asthma; right popliteal artery thrombus with negative hypercoagulable workup,Clobetasol Propionate; Fluocinolone Acetonide; Metronidazole; Alprazolam; Lovastatin; Montelukast; Fluticasone-Salmeterol; Pantoprazole; Aspirin; Loratadine,Percocet,high,,
+164580," 
 Name:  ___                Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -23690,8 +24950,77 @@ ___
 - **Diagnosis:** Expired
 - **Condition:** Expired
 - **Instructions:** N/A
-- **Follow-up:** N/A"
-" 
+- **Follow-up:** N/A",,M,Medicine,,,s/p cardiac arrest,"Patient with PMHx of schizophrenia, hypertension, and anemia presented from a nursing home after a cardiac arrest due to choking. ROSC achieved after CPR and epinephrine administration. Became bradycardic and transitioned to asystole, requiring further CPR and epinephrine. Stabilized with norepinephrine.",schizophrenia; hypertension; anemia,Amlodipine 5 mg PO daily; Calcium Carbonate 500 mg PO BID; Citalopram 10 mg PO daily; Apixaban 5 mg PO BID; Olanzapine 20 mg PO daily; Divalproex 500 mg PO TID; Ketoconazole Shampoo as directed; Docusate Sodium 100 mg PO daily; Hydrocortisone Cream 2.5% BID,Penicillins; Haldol,high,"--- NOTE ---
+**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** M
+- **Service:** Medicine
+- **Attending:** [Redacted]
+
+**Admission and Discharge:**
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+
+**Allergies:**
+- Penicillins
+- Haldol
+
+**Chief Complaint:**
+- s/p cardiac arrest
+
+**Major Procedures:**
+- Chest thoracostomy tube placement
+- Intubation
+- Central venous catheter placement
+
+**History of Present Illness:**
+- Patient with PMHx of schizophrenia, hypertension, and anemia presented from a nursing home after a cardiac arrest due to choking. ROSC achieved after CPR and epinephrine administration. Became bradycardic and transitioned to asystole, requiring further CPR and epinephrine. Stabilized with norepinephrine.
+
+**Initial ED Vitals:**
+- T: 34.9°C, HR: 83, BP: 111/63, RR: 14, O2 Sat: 100% on RA
+
+**Exam Findings:**
+- Intubated, unresponsive, no trauma, psoriatic plaques, pupils minimally responsive, no spontaneous limb movements.
+
+**Notable Labs:**
+- WBC: 16.1, Hgb: 12.4, Plt: 635, Na: 134, K: 4.2, Cr: 0.3, TnT: 0.47, AP: 164, INR: 1.4, Lactate: 2.6 -> 1.3
+
+**Imaging:**
+- NCCTH: No hemorrhage
+- CXR: Possible LLL pneumonia
+- MRI Head: Early ischemic brain injury
+- TTE: Normal biventricular function, no valvular pathology
+- EEG: Severe encephalopathy with burst suppression pattern
+
+**Consults:**
+- Post-arrest response team recommended TTM at 35°C for 24 hours with EEG in ICU. Developed a CTX requiring chest tube placement.
+
+**Hospital Course:**
+- Admitted to MICU for post-cardiac arrest management. Despite ROSC, suffered severe anoxic brain injury confirmed by MRI and neurology consult. Transitioned to CMO after discussion with HCP. Extubated and expired on [Redacted].
+
+**Medications on Admission:**
+1. Amlodipine 5 mg PO daily
+2. Calcium Carbonate 500 mg PO BID
+3. Citalopram 10 mg PO daily
+4. Apixaban 5 mg PO BID
+5. Olanzapine 20 mg PO daily
+6. Divalproex 500 mg PO TID
+7. Ketoconazole Shampoo as directed
+8. Docusate Sodium 100 mg PO daily
+9. Hydrocortisone Cream 2.5% BID
+
+**Discharge Information:**
+- **Disposition:** Expired
+- **Diagnosis:** Expired
+- **Condition:** Expired
+- **Instructions:** N/A
+- **Follow-up:** N/A
+--- END NOTE ---",
+908451," 
 Name:  ___                    Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -24482,8 +25811,8 @@ ___
 - Discharged with home physical therapy and follow-up with a neurologist.
 
 **Follow-up Instructions:**
-- Obtain a referral from your primary care doctor for a neurologist."
-" 
+- Obtain a referral from your primary care doctor for a neurologist.",,M,Neurology,,,"Headache, Nausea, Vomiting","Admitted with hypertensive emergency (BP 230-250) and hypercarbic respiratory failure. Symptoms included intermittent nausea, vomiting, and headaches. History of taking Advil and testosterone. Initial BP at PCP visit was 210 systolic; started on HCTZ. Creatinine elevated to 3.4; transferred to ED with high BP.",,Hydrochlorothiazide; Advil (ibuprofen); Testosterone; Vancomycin; Zosyn (piperacillin/tazobactam); Amlodipine; Atorvastatin; Clonidine; Pantoprazole; Carvedilol; Aspirin; Lisinopril; Trazodone,,high,,
+055047," 
 Name:  ___                Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -24680,8 +26009,67 @@ ___
 - Follow up as instructed
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Medicine,,,"Watery diarrhea, LLQ pain",Patient presented with epigastric pain and watery diarrhea starting the previous evening after consuming a burger. Experienced >10 episodes of diarrhea and LLQ pain. No recent travel or similar symptoms in others. No fever or chills.,,Metronidazole 500 mg PO every 8 hours for 14 days,,medium,"**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Female
+- **Service:** Medicine
+- **Attending:** [Redacted]
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+
+**Chief Complaint:**
+- Watery diarrhea, LLQ pain
+
+**History of Present Illness:**
+- Patient presented with epigastric pain and watery diarrhea starting the previous evening after consuming a burger. Experienced >10 episodes of diarrhea and LLQ pain. No recent travel or similar symptoms in others. No fever or chills.
+
+**Physical Exam:**
+- **VS:** 98.7°F, 123/75 mmHg, 92 bpm, 20 breaths/min, 99% RA
+- **General:** Well-appearing, no acute distress
+- **HEENT:** Normal
+- **Neck:** Supple, no abnormalities
+- **Heart:** Tachycardic, regular rhythm
+- **Lungs:** Clear to auscultation
+- **Abdomen:** Epigastric tenderness, LLQ > RLQ, no rebound or guarding
+- **Extremities:** Warm, well-perfused, no edema
+- **Neuro:** Alert, oriented, normal strength and sensation
+- **Rectal:** Normal tone, guaiac negative, yellowish stool
+
+**Pertinent Results:**
+- **Labs:** Elevated WBC (16.9), lactate initially 3.1 (improved to 1.4), other labs within normal limits
+- **Imaging:** Transvaginal ultrasound and CT scan normal
+- **Diagnosis:** Clostridium difficile-associated diarrhea
+
+**Treatment:**
+- IV fluids, Zofran, Compazine, Dilaudid
+- Started on oral metronidazole
+
+**Discharge Medications:**
+- Metronidazole 500 mg, one tablet PO every 8 hours for 14 days
+
+**Discharge Disposition:**
+- Home
+
+**Discharge Diagnosis:**
+- Clostridium difficile diarrhea
+
+**Discharge Condition:**
+- Mental Status: Clear and coherent
+- Level of Consciousness: Alert and interactive
+- Activity Status: Ambulatory, independent
+
+**Discharge Instructions:**
+- Continue metronidazole for the full 14-day course
+- Avoid alcohol while taking metronidazole
+- Follow up as instructed
+
+**Follow-up Instructions:**
+- [Redacted]",
+089157," 
 Name:  ___              Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -25047,8 +26435,8 @@ ___
 - Females: Wear a bra to reduce pulling on incision
 
 **Follow-up Instructions:**
-- Contact cardiac surgery office with any questions or concerns."
-" 
+- Contact cardiac surgery office with any questions or concerns.",,Male,Cardiothoracic,,,Chest pain,"Male with CAD, previous PCI with BMS to left circumflex and balloon angioplasty to diagonal branch. Recent worsening chest discomfort, relieved with rest and SL nitro. Referred for CABG evaluation after significant multivessel disease found on cardiac cath.",CAD; HTN; Hypercholesterolemia,Acetaminophen 1000 mg PO/PR QID PRN pain/temperature >38.0; Amiodarone 200 mg PO BID (then 200mg daily after one week); Metoprolol Succinate XL 150 mg PO daily; Oxycodone (Immediate Release) [Redacted] mg PO Q4H PRN pain; Aspirin 81 mg PO daily; Atorvastatin 80 mg PO QPM,,high,,
+911641," 
 Name:  ___                Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -25352,8 +26740,8 @@ ___
 - Medications added: Tylenol, Oxycodone, Docusate, Senna
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Medicine,,,Left hip fracture,"Patient with a history of hypertension and meningioma presented with a fractured right hip after a mechanical fall while on vacation. Underwent ORIF surgery and has been unable to bear weight since. Denies fevers, chills, increased lower extremity swelling, chest pain, or pleuritic pain.","Meningioma (s/p craniotomy); Hyperparathyroidism (s/p parathyroid adenoma removal); Hypothyroidism; Right nephrolithotomy for renal staghorn calculus; Hypertension with renal insufficiency (Cr 1.6); Psoriasis (scalp); Mild to moderate mitral regurgitation; Cholelithiasis (asymptomatic); Squamous cell carcinoma (anterior chest wall, no recurrence)",Levothyroxine 112 mcg daily; Lisinopril 5 mg daily; Phenytoin 100 mg every 8 hours; Aspirin 81 mg daily; Calcium Citrate 250 mg daily; Vitamin D3 400 units daily; Calcium Acetate 667 mg twice daily; Enoxaparin 30 mg every 12 hours; Acetaminophen 325 mg every 6 hours; Oxycodone 5 mg every 8 hours as needed; Docusate 100 mg twice daily; Senna 8.6 mg twice daily as needed,,medium,,
+745724," 
 Name:  ___                  Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -25595,8 +26983,8 @@ ___
 - Changes in bowel or bladder habits
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Neurosurgery,,,Back and left leg pain,"Female with known herniated discs at L4-5 and L5-S1, initially managed with physical therapy. Recently developed severe back pain radiating to the left leg, with numbness on the top of the left foot. No weakness reported.",A.D.D,Concerta 27mg Daily; Immitrex PRN; Codeine; Colace,,medium,,
+984257," 
 Name:  ___               Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -25858,8 +27246,8 @@ ___
 - Contact medical records to send hospitalization records to home doctor.
 
 **Contact Information:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Obstetrics/Gynecology,,,Abdominal bloating,"Gravida 0 woman with a history of uterine fibroids, endometriosis, and endometriomas. Symptoms: Abdominal bloating, menorrhagia, severe menstrual cramping, urinary frequency, nocturia, constipation. Recent pelvic ultrasound showed unchanged fibroid uterus, 5.6cm left endometrioma, and new 7.5cm right endometrioma.",Allergic rhinitis; Depression; Uterine fibroids; Endometriosis; Endometriomas; Pseudocholinesterase deficiency,Duloxetine 60mg PO QD; Lorazepam 0.5mg PO QD as needed,,medium,,
+554435," 
 Name:  ___                     Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -26334,8 +27722,14 @@ ___
 - Seek medical attention for any concerning symptoms.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Medicine,,,Shortness of Breath (SOB),"Elderly female with CAD, HTN, CHF, dyslipidemia, depression, panic attacks, and renal cell carcinoma.
+- Transferred from another facility with SOB and delirium.
+- Diagnosed with CHF and possible pneumonia; treated with levofloxacin and doxycycline without improvement.
+- Developed AFib and was transferred for further management.
+- Admitted to ICU, diuresed, and treated for respiratory and metabolic alkalosis.
+- Diagnosed with atrial fibrillation; continued on ASA & Plavix, not anticoagulated due to past issues with coumadin.
+- CT scan revealed a lytic lesion in T7-T8; transferred for further care.",Renal cell carcinoma; COPD; CHF; T7-T8 lytic lesion; delirium; hypertension; hypercholesterolemia; chronic renal insufficiency; history of MI; panic attacks; depression; atrial fibrillation,Ipratropium Bromide; Aspirin; Omeprazole; Clopidogrel; Lorazepam; Furosemide; Simvastatin; Metoprolol; Duloxetine; Albuterol; Magnesium Hydroxide; Lisinopril; Insulin Lispro; Heparin; Morphine; Dexamethasone; Trimethoprim-Sulfamethoxazole; Senna; Bisacodyl; Acetaminophen; Thiamine; Folic Acid; Prochlorperazine; Haloperidol; Docusate; Polyethylene Glycol,,high,,
+387157," 
 Name:  ___                   Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -26749,8 +28143,8 @@ ___
 - Dear loved ones of Mr. [Redacted], it was a pleasure taking part in his care. He was transferred with a diagnosis of metastatic colon cancer. Despite treatment efforts, including stent placement and antibiotics for pneumonia, he developed a perforated colon and was not a candidate for further surgical intervention. He transitioned to comfort measures and passed away peacefully. 
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Male,Medicine,,,Abdominal pain,"Patient with history of HCV, alcohol use, and hypertension presented with abdominal pain, dark liquid bowel movements, weight loss (40 lbs), and lightheadedness. CT imaging suggested metastatic colon cancer with liver and lung involvement. Hematocrit was 34%, sodium 118. Treated for community-acquired pneumonia.",Hypertension; Alcohol dependence; Hepatitis C infection,,,high,,
+399907," 
 Name:  ___                  Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -27063,8 +28457,8 @@ ___
 - Seek immediate medical attention for black/bloody stool or vomiting blood.
 - Follow-up appointment with Interventional Radiology in [Redacted] weeks.
 
-**Follow-up Instructions:** [Redacted]"
-" 
+**Follow-up Instructions:** [Redacted]",,Male,Medicine,,,Post TIPS monitoring,"Male with congenital hepatic fibrosis, portal hypertension, and variceal bleeding. Admitted for post-TIPS monitoring after severe variceal bleeding and endoscopic banding. TIPS procedure was complicated, lasting 6 hours, with HVPG reduced to 10.",Congenital hepatic fibrosis; Portal hypertension; Gastric and esophageal varices (s/p band ligation); Hyperlipidemia,Lactulose 30 mL PO daily; Nadolol 40 mg PO daily; Pravastatin 40 mg PO QPM,,medium,,
+032455," 
 Name:  ___                    Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -27347,8 +28741,8 @@ ___
 - Changes in vision, speech difficulties, severe or worsening headache, sudden changes in limb movement or sensation, trouble swallowing, breathing, or talking, fever >101.5°F for 24 hours, or unusual drainage from the incision.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Male,Surgery,,,Asymptomatic Carotid Stenosis,Patient presented for carotid duplex for known carotid stenosis. Previous findings showed >80% stenosis of the left ICA and 60% of the right ICA. Patient remained asymptomatic.,,Albuterol Inhaler; Hydrochlorothiazide; Lisinopril; Metformin; Metoprolol Succinate XL; Simvastatin; Tiotropium Bromide; Omeprazole; Glimepiride; Viagra; Oxycodone (Immediate Release); Aspirin,,low,,
+750597," 
 Name:  ___                Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -27610,8 +29004,75 @@ ___
 - **Danger Signs:** Contact PCP or return to ED for uncontrolled pain, concerning incision changes, persistent numbness, fever, chills, chest pain, shortness of breath, or inability to keep food/medications down.
 
 **Follow-up:**
-- With Dr. [Redacted] or local orthopedic provider in 2 weeks."
-" 
+- With Dr. [Redacted] or local orthopedic provider in 2 weeks.",,Female,Orthopaedics,,,Right ankle fracture dislocation,"Healthy female sustained a right ankle injury from a slip and fall down stairs. No head injury, loss of consciousness, numbness, or previous ankle injuries. Currently visiting her son.",,Acetaminophen 1000 mg PO Q6H; Docusate Sodium 100 mg PO BID; Enoxaparin Sodium 40 mg SC QHS; Oxycodone (Immediate Release) [Redacted] mg PO Q4H PRN Pain; Senna 8.6 mg PO BID,,medium,"**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Female
+- **Service:** Orthopaedics
+- **Attending:** [Redacted]
+
+**Admission and Discharge:**
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+
+**Chief Complaint:**
+- Right ankle fracture dislocation
+
+**Major Procedure:**
+- Right ankle surgical fixation
+
+**History of Present Illness:**
+- Healthy female sustained a right ankle injury from a slip and fall down stairs. No head injury, loss of consciousness, numbness, or previous ankle injuries. Currently visiting her son.
+
+**Past Medical History:**
+- None
+
+**Social History:**
+- [Redacted]
+
+**Family History:**
+- Noncontributory
+
+**Physical Exam:**
+- Right lower extremity in splint, toes move and are warm, well-perfused.
+
+**Hospital Course:**
+- Admitted for right ankle fracture dislocation. Underwent successful open reduction internal fixation. Post-op recovery was stable. Transitioned from IV to oral medications and regular diet by POD#1. Discharged with Lovenox for DVT prophylaxis. Pain well-controlled, nonweightbearing in right lower extremity, and instructed to follow up in 2 weeks.
+
+**Medications on Admission:**
+- None
+
+**Discharge Medications:**
+1. Acetaminophen 1000 mg PO Q6H
+2. Docusate Sodium 100 mg PO BID
+3. Enoxaparin Sodium 40 mg SC QHS
+4. Oxycodone (Immediate Release) [Redacted] mg PO Q4H PRN Pain
+5. Senna 8.6 mg PO BID
+
+**Discharge Disposition:**
+- Home
+
+**Discharge Diagnosis:**
+- Right ankle fracture
+
+**Discharge Condition:**
+- Mental Status: Clear and coherent
+- Level of Consciousness: Alert and interactive
+- Activity Status: Ambulatory with assistance (walker or cane)
+
+**Discharge Instructions:**
+- **Activity and Weight Bearing:** Nonweightbearing right lower extremity in splint
+- **Medications:** Follow prescribed regimen, wean off oxycodone within a week, continue Tylenol, and follow bowel regimen.
+- **Anticoagulation:** Lovenox daily for 4 weeks
+- **Wound Care:** Shower allowed, no baths/swimming for 4 weeks, follow-up for stitch/staple removal in 2 weeks, keep splint dry.
+- **Danger Signs:** Contact PCP or return to ED for uncontrolled pain, concerning incision changes, persistent numbness, fever, chills, chest pain, shortness of breath, or inability to keep food/medications down.
+
+**Follow-up:**
+- With Dr. [Redacted] or local orthopedic provider in 2 weeks.",
+362207," 
 Name:  ___                 Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -27992,8 +29453,8 @@ ___
 - Walk multiple times a day, gradually increase activity.
 
 **Follow-up Instructions:**
-- Call"
-" 
+- Call",,Male,Cardiothoracic,,,Pulmonary nodule,"Referred for evaluation of a pulmonary nodule in the left lower lobe (LLL), which increased in size from 1 cm to 17.6 x 15.8 x 16.2 mm over time. Symptoms included mild fatigue, 15-pound unintentional weight loss, mild nonproductive cough, and intermittent hoarse voice.",CAD (s/p stents x4); Prostate CA (s/p radical prostatectomy); Inguinal hernia (s/p repair); Pulmonary nodules; Aortic stenosis; Middle cerebral artery stenosis; Anemia; HTN; AV Block (Mobitz II); HLD; Impaired glucose tolerance; EtOH dependence (not currently drinking); Osteoarthritis (L hand/wrist); Trigger finger; Cervical disc disease; Lumbar disc disease; Depressive disorder; Glaucoma (angle recession); Peripheral neuropathy; Hoarseness,Pantoprazole 40 mg PO Q24H; Docusate Sodium 100 mg PO BID; Atorvastatin 80 mg PO DAILY; Aspirin 325 mg PO DAILY; Citalopram 20 mg PO DAILY; Brimonidine 0.2% OS BID; Latanoprost 0.005% Ophth. Soln. 1 DROP LEFT EYE HS; Dorzolamide 2%/Timolol 0.5% Ophth. 1 DROP LEFT EYE BID; Senna 1 TAB PO BID; Acetaminophen 650 mg PO Q6H; Cyanocobalamin 1000 mcg IM/SC MONTHLY; Tramadol 50 mg PO QID; Metoprolol Tartrate 50 mg PO BID,,medium,,
+034723," 
 Name:  ___                    Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -28466,8 +29927,99 @@ ___
 - Consider seeing a counselor or therapist for chronic pain management.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,M,Medicine,,,Abdominal pain,"Patient with a history of chronic abdominal pain attributed to IBS and GERD, status post Nissen fundoplication, was admitted with abdominal pain and inability to tolerate oral intake. Symptoms included epigastric burning and intermittent sharp RUQ pain, associated with nausea but no emesis. Patient reported a 14 lb weight loss over the past week and multiple ED visits for similar complaints, including an episode of anaphylactic shock due to amoxicillin.",GERD; IBS with chronic LLQ pain,Docusate Sodium 100 mg PO BID; Famotidine 20 mg PO TID; Polyethylene Glycol 17 g PO DAILY PRN; Pregabalin 300 mg PO BID; Tramadol 50-100 mg PO Q6H PRN; Albuterol Inhaler PRN; EpiPen 0.3 mg injection PRN; Hydromorphone 2 mg PO Q6H PRN; Lorazepam 0.5 mg PO HS PRN; Omeprazole 20 mg PO DAILY; Ondansetron 4 mg PO Q4H PRN,Amoxicillin; Morphine,medium,"--- NOTE ---
+**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+- **Date of Birth:** [Redacted]
+- **Sex:** M
+- **Service:** Medicine
+- **Attending:** [Redacted]
+
+**Allergies:**
+- Amoxicillin
+- Morphine
+
+**Chief Complaint:**
+- Abdominal pain
+
+**Major Surgical or Invasive Procedure:**
+- None
+
+**History of Present Illness:**
+- Patient with a history of chronic abdominal pain attributed to IBS and GERD, status post Nissen fundoplication, was admitted with abdominal pain and inability to tolerate oral intake. Symptoms included epigastric burning and intermittent sharp RUQ pain, associated with nausea but no emesis. Patient reported a 14 lb weight loss over the past week and multiple ED visits for similar complaints, including an episode of anaphylactic shock due to amoxicillin.
+
+**Past Medical History:**
+- GERD
+- IBS with chronic LLQ pain
+
+**Surgical History:**
+- Laparoscopic Nissen Fundoplication
+- Endoscopic dilation
+- Laparoscopic removal of abdominal cyst
+
+**Social History:**
+- [Redacted]
+
+**Family History:**
+- MGF: Stroke, MI
+- Father: HTN, HLD
+- Family history of gallbladder problems
+
+**Physical Exam:**
+- **Admission:** T: 94.5, HR: 92, BP: 135/86, RR: 16, Sat 100% RA, Weight: 130.5, Height: 67, BMI: 20.4, General: Uncomfortable, CV: RRR, mild tachy, Abd: Soft, nondistended, TTP RUQ and epigastrium, Back: +R CVAT, Ext: No c/c/e
+- **Discharge:** Afebrile, normotensive, stable vitals, alert, oriented, no acute distress, clear lungs, regular heart rate, soft and nontender abdomen, normal motor function
+
+**Pertinent Results:**
+- Labs: Elevated glucose, normal liver function tests, normal CBC, normal electrolytes, negative sulfonylurea levels
+- Imaging: Normal CXR, normal barium esophagram, normal abdominal ultrasound
+
+**Hospital Course:**
+- **Acute on Chronic Abdominal Pain:** Extensive workup was negative. Symptoms managed with PO tramadol and home regimen. Psychiatry recommended outpatient therapy.
+- **Epigastric Discomfort:** Managed with famotidine and PPI.
+- **Nausea/Poor PO Intake:** Treated with ondansetron. Advised to follow a BRAT diet.
+- **Hypoglycemia:** Single episode managed; no recurrence.
+- **Anaphylaxis History:** Advised to follow up with an allergist and prescribed an EpiPen.
+
+**Medications on Discharge:**
+1. Docusate Sodium 100 mg PO BID
+2. Famotidine 20 mg PO TID
+3. Polyethylene Glycol 17 g PO DAILY PRN
+4. Pregabalin 300 mg PO BID
+5. Tramadol 50-100 mg PO Q6H PRN
+6. Albuterol Inhaler PRN
+7. EpiPen 0.3 mg injection PRN
+8. Hydromorphone 2 mg PO Q6H PRN
+9. Lorazepam 0.5 mg PO HS PRN
+10. Omeprazole 20 mg PO DAILY
+11. Ondansetron 4 mg PO Q4H PRN
+
+**Discharge Disposition:**
+- Home
+
+**Discharge Diagnosis:**
+- Abdominal pain
+- Nausea
+
+**Discharge Condition:**
+- Mental Status: Clear and coherent
+- Level of Consciousness: Alert and interactive
+- Activity Status: Ambulatory - Independent
+
+**Discharge Instructions:**
+- Follow a mild diet, low in fat and dairy, in small portions for the next week.
+- Take prescribed medications (ondansetron for nausea, omeprazole for stomach acid).
+- Follow up with primary care doctor and specialist as scheduled.
+- Consider seeing a counselor or therapist for chronic pain management.
+
+**Follow-up Instructions:**
+- [Redacted]
+--- END NOTE ---",
+442835," 
 Name:  ___                        Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -28916,8 +30468,8 @@ ___
 - Follow up with your primary doctor next week for blood pressure management.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Medicine,,,Syncope," [Redacted] is a [Redacted] year-old female with a history of CAD s/p MI, gout, and hypothyroidism who presented with syncope. She experienced regurgitation, lightheadedness, and then fainted. She was found to have bradycardia (HR 37) in the ED. No recent medication changes, but she reported increased fatigue over the past few weeks.",CAD; HTN; Gout; Hypothyroidism; HLD,Rosuvastatin 20 mg PO daily; Allopurinol [Redacted] mg PO daily; Hydrochlorothiazide 25 mg PO daily; Levothyroxine 100 mcg PO daily,,medium,,
+427370," 
 Name:  ___                    Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -29143,8 +30695,78 @@ ___
 - Follow up with PCP.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Surgery,,,Diverticular abscess,"Presented with LLQ abdominal pain for 4 days. Single episode of vomiting last week. History of diverticulosis, no prior abscess or hospitalization. CT showed a 4.3 x 4.7 cm abscess in the colon.",Symptomatic Cholelithiasis; Biliary obstruction s/p ERCP; Anemia,Calci-Chew; multivitamin; lisinopril; hydrochlorothiazide; Augmentin,Tetracycline; Flagyl,medium,"**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Female
+- **Service:** Surgery
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+- **Attending:** [Redacted]
+
+**Allergies:**
+- Tetracycline
+- Flagyl
+
+**Chief Complaint:**
+- Diverticular abscess
+
+**History of Present Illness:**
+- Presented with LLQ abdominal pain for 4 days.
+- Single episode of vomiting last week.
+- History of diverticulosis, no prior abscess or hospitalization.
+- CT showed a 4.3 x 4.7 cm abscess in the colon.
+
+**Past Medical History:**
+- Symptomatic Cholelithiasis
+- Biliary obstruction s/p ERCP
+- Anemia
+
+**Physical Exam:**
+- Temp: 97.2°F, HR: 79, BP: 110/61, Resp: 18, O2 Sat: 100%
+- Mild LLQ tenderness, otherwise normal exam.
+
+**Pertinent Results:**
+- Elevated WBC (11.8), chronic renal insufficiency (Creat 2.0), UTI.
+- CT: Sigmoid diverticulitis with abscess, 3 mm nodule in left lung base.
+
+**Brief Hospital Course:**
+- Referred to ED after outpatient CT.
+- Given Unasyn, made NPO, started on IV fluids and antibiotics.
+- Symptomatic resolution, tolerated regular diet.
+- Discharged on a 7-day course of Augmentin.
+
+**Medications on Admission:**
+- [Redacted], Calci-Chew, multivitamin, lisinopril-hydrochlorothiazide
+
+**Discharge Medications:**
+1. Lisinopril 10 mg daily
+2. Hydrochlorothiazide 12.5 mg daily
+3. Augmentin 875-125 mg twice daily for 6 days
+
+**Discharge Disposition:**
+- Home
+
+**Discharge Diagnosis:**
+- Diverticular abscess
+
+**Discharge Condition:**
+- Mental Status: Clear and coherent
+- Level of Consciousness: Alert and interactive
+- Activity Status: Ambulatory - Independent
+
+**Discharge Instructions:**
+- Resume regular home medications.
+- Take new medications as prescribed.
+- Use acetaminophen for pain, not exceeding 4000 mg/day.
+- Rest, walk several times daily, and stay hydrated.
+- Follow up with PCP.
+
+**Follow-up Instructions:**
+- [Redacted]",
+213375," 
 Name:  ___              ___ No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -29832,8 +31454,8 @@ ___
 - **Follow-up:** Schedule wound check in 8-14 days and post-op visit in 4 weeks. Monitor for symptoms of infection or complications.
 
 **Follow-up Instructions:**
-- Contact the surgeon's office for any concerns or complications."
-" 
+- Contact the surgeon's office for any concerns or complications.",,Male,Orthopaedics,,,Neck fracture,"Male patient presented after an intoxicated fall from a balcony, sustaining multiple fractures (C5-C7, T2, sternal) and a facial laceration. No loss of consciousness or neurological deficits reported initially.",Alcohol abuse,Acetaminophen 1000 mg PO Q6H; Docusate Sodium 100 mg PO BID; Folic Acid 1 mg PO DAILY; Gabapentin 300 mg PO Q8H; Metronidazole 500 mg PO Q8H for 7 days; Oxycodone Liquid 5 mg PO Q3H PRN; Thiamine 100 mg PO DAILY,,high,,
+453232," 
 Name:  ___                     Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -30389,8 +32011,8 @@ ___
 **Discharge Condition:**
 - Mental Status: Clear and coherent
 - Level of Consciousness: Alert and interactive
-- Activity Status: Ambulatory - Independent"
-" 
+- Activity Status: Ambulatory - Independent",,Female,Medicine,,,Lower extremity edema,"Female with a history of polycystic disease, bilateral nephrectomies, deceased donor renal transplant, atrial fibrillation, type 2 diabetes, and hypertension. Recent complications included recurrent pneumonia, pleural effusion, infected hepatic cyst, sepsis, hyperkalemia, and worsening renal function. Presented for a second opinion on increasing creatinine and was admitted for volume overload and tachycardia.",polycystic disease; bilateral nephrectomies; deceased donor renal transplant; atrial fibrillation; type 2 diabetes; hypertension; hyperlipidemia,Prednisone 5 mg daily; Lorazepam 0.5 mg Q8H PRN; Metoprolol succinate 150 mg BID; Mycophenolate mofetil 250 mg BID; Multivitamin daily; Coumadin 5 mg daily; Diltiazem ER 120 mg daily; Cyclosporine 25 mg Q12H; Furosemide 40 mg BID,,high,,
+615226," 
 Name:  ___                  Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -30832,8 +32454,8 @@ ___
 - Start Gabapentin 600 mg TID for pain
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,M,Neurology,,,Limb weakness and tingling,"A [Redacted]-year-old male with no significant past medical history presented with a three-week history of bilateral hand and leg paresthesias and weakness, bilateral calf pain, and a resolved three-day episode of right facial droop with ptosis. Symptoms began after a cold and progressively worsened, leading to multiple evaluations and a final diagnosis of Bell's Palsy before admission.",,"Gabapentin 300 mg Capsule, 2 capsules PO TID for 1 month; Metoprolol succinate 50 mg Tablet Extended Release, 1.5 tablets PO daily; Omeprazole 20 mg Capsule, Delayed Release, 1 capsule PO daily",,medium,,
+592937," 
 Name:  ___      Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -31096,8 +32718,8 @@ ___
 - Pelvic rest for 6 weeks
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Obstetrics/Gynecology,,,Premature Preterm Rupture of Membranes (PPROM),"G3P1 patient presented with fluid leakage and nausea/vomiting for 1 day. Noted a ""gush of fluid"" after vomiting, with persistent clear fluid leakage and mild lower abdominal cramping. Denied fever, chills, cough, dysuria, changes in bowel habits, sick contacts, and vaginal bleeding. Ultrasound and MRI confirmed cervical funneling with an open internal os.",Pseudotumor cerebri; Previous LTCS; Spontaneous abortion (SAB) x 1,"Prenatal vitamins (PNV); Motrin 600 mg, 1 tablet PO every 6 hours as needed for pain; Percocet [Redacted] mg, [Redacted] tablets PO every [Redacted] hours as needed for pain; Doxycycline Monohydrate 100 mg, 1 tablet PO twice a day for 7 days",,medium,,
+950208," 
 Name:  ___                   Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -31566,8 +33188,8 @@ ___
 3. Daily weight and temperature monitoring
 4. No driving for one month or while on narcotics
 5. No lifting >10 lbs for 10 weeks
-6. Contact with any questions or"
-" 
+6. Contact with any questions or",,Male,Cardiothoracic,,,Chest pain,"[Redacted] year old male with CAD (LAD stent), CHF (EF 35-40%), COPD, presented with 4 days of worsening dyspnea and edema. Initially treated for COPD exacerbation, ruled in for NSTEMI. Transferred for revascularization evaluation.",Coronary artery disease with LAD stent; Chronic obstructive pulmonary disease; Hypertension; Congestive heart failure; Diabetes mellitus; Rectal cancer (treated with chemo/radiation and surgery); Post-traumatic stress disorder (veteran),Acetaminophen 650 mg PO Q4H PRN pain; Amiodarone 400 mg PO BID (tapering dose); Aspirin EC 81 mg PO daily; Atorvastatin 80 mg PO daily; Carvedilol 6.25 mg PO BID; Docusate Sodium 100 mg PO BID; Glipizide XL 5 mg PO daily; Lisinopril 5 mg PO daily; Metformin 500 mg PO BID; Oxycodone 5 mg PO Q4H PRN pain; Quetiapine Fumarate 50 mg PO QHS; Furosemide 40 mg PO daily x 10 days; Potassium Chloride 20 mEq PO daily x 10 days,Penicillins,high,,
+459831," 
 Name:  ___.                 Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -31896,8 +33518,8 @@ ___
 - Skin staples removal in 2 weeks or at follow-up
 
 **Follow-up Instructions:**
-- ___"
-" 
+- ___",,Female,Orthopaedics,,,Progressive bilateral knee pain with activity,"Ms. ___, a ___-year-old female with osteoarthritis and bilateral knee pain, admitted for definitive treatment.",Hypertension; Hypothyroidism (post partial thyroidectomy); Arthritis; Spinal stenosis; Chronic low back pain; Mitral valve prolapse; Irritable bowel syndrome; Cerebral aneurysm,Verapamil; Avapro; Levoxyl; Neurontin; Tramadol; Lysine; Vit-B complex; Glucosamine chondroitin; Pantoprazole 40 mg Q24H; Docusate Sodium 100 mg BID; Bisacodyl 5 mg Daily as needed; Magnesium Hydroxide 400 mg/5 mL BID as needed; Senna 8.6 mg BID as needed; Multivitamin Daily; Ferrous Sulfate 325 mg Daily; Calcium Carbonate 500 mg TID; Cholecalciferol (Vitamin D3) 400 unit Daily; Gabapentin 400 mg TID; Irbesartan 150 mg Daily; Levothyroxine 50 mcg Daily; Verapamil 120 mg Q24H; Enoxaparin 40 mg Subcutaneous Daily for 3 weeks; Hydromorphone 2 mg Q4H as needed; Tramadol 50 mg TID as needed (do not take with Hydromorphone); Ciprofloxacin 250 mg Q12H for 3 days,,low,,
+717159," 
 Name:  ___                     Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -32176,8 +33798,8 @@ ___
 - Take Ciprofloxacin 500 mg twice daily for 1 week, then 500 mg once daily.
 
 **Follow-Up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Male,Surgery,,,Umbilical hernia in a cirrhotic patient with leaking ascites and skin changes.,"Male with decompensated alcoholic and Hepatitis C cirrhosis (MELD 14, Child B) presented with leakage of ascites and skin changes at the site of a known umbilical hernia. The hernia had been leaking intermittently for at least a year. Recently experienced a sudden large-volume leakage of ascites.",Decompensated alcoholic and Hepatitis C cirrhosis,Furosemide 60 mg PO daily; Mirtazapine 7.5 mg PO HS; Spironolactone 100 mg PO daily; Pantoprazole 40 mg PO Q12H; Tramadol 50 mg PO TID PRN pain,,medium,,
+662432," 
 Name:  ___                 Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -32467,8 +34089,93 @@ ___
 - **When to Call:** Numbness, coldness, pain in extremities, fever >101.5°F, increased drainage, or severe bleeding.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Surgery,,,,"Patient with hypothyroidism presented with left leg swelling and pain, diagnosed with extensive left leg DVT. No recent immobility, travel, surgery, or trauma. Family history includes father with DVT.",Hypothyroidism; Depression,Duloxetine 120 mg daily; Levothyroxine 75 mcg daily; Clonazepam 0.5 mg BID; Docusate Sodium 100 mg BID; Oxycodone [Redacted] mg Q4H PRN; Rivaroxaban 15 mg BID (first 3 weeks); Rivaroxaban 20 mg daily (after 3 weeks),,high,"--- NOTE ---
+**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Female
+- **Service:** Surgery
+- **Attending:** [Redacted]
+
+**Admission and Discharge:**
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+
+**Chief Complaint:**
+- [Redacted] Syndrome
+
+**Major Procedures:**
+- Thrombolysis, mechanical thrombectomy
+- IVC filter placement
+- Repeat mechanical thrombectomy, angiojet
+- Common iliac wall stent x2
+
+**History of Present Illness:**
+- Patient with hypothyroidism presented with left leg swelling and pain, diagnosed with extensive left leg DVT. No recent immobility, travel, surgery, or trauma. Family history includes father with DVT.
+
+**Past Medical History:**
+- Hypothyroidism
+- Depression
+
+**Social History:**
+- [Redacted]
+
+**Family History:**
+- No hypercoagulability disorders. Father had DVT post-ICU.
+
+**Physical Exam on Discharge:**
+- Vitals: Stable
+- General: Alert, oriented, no distress
+- HEENT: Normal
+- CV: Regular rhythm, no murmurs
+- Pulm: Clear
+- Abd: Soft, non-tender
+- Ext: Mild LLE swelling, no RLE swelling, pulses present
+
+**Pertinent Results:**
+- Elevated WBC, low RBC, Hgb, Hct, and calcium. Normal glucose, urea, creatinine, electrolytes.
+
+**Brief Hospital Course:**
+- Admitted for left leg swelling. Diagnosed with iliac vein compression. Underwent IVC filter placement, thrombolysis, and mechanical thrombectomy with stent placement. Recovered well post-operatively, stable in ICU. Discharged on rivaroxaban with follow-up arranged.
+
+**Medications on Admission:**
+1. Duloxetine 120 mg daily
+2. Levothyroxine 75 mcg daily
+3. Clonazepam 0.5 mg BID
+
+**Discharge Medications:**
+1. Docusate Sodium 100 mg BID
+2. Oxycodone [Redacted] mg Q4H PRN
+3. Rivaroxaban 15 mg BID (first 3 weeks)
+4. Rivaroxaban 20 mg daily (after 3 weeks)
+5. Clonazepam 0.5 mg BID
+6. Duloxetine 120 mg daily
+7. Levothyroxine 75 mcg daily
+
+**Discharge Disposition:**
+- Home
+
+**Discharge Diagnosis:**
+- [Redacted] syndrome - DVT in LLE
+
+**Discharge Condition:**
+- Mental Status: Clear, coherent
+- Level of Consciousness: Alert, interactive
+- Activity Status: Ambulatory, independent
+
+**Discharge Instructions:**
+- **Medications:** Continue pre-admission medications, take aspirin 325 mg daily, and Plavix if instructed. Use Tylenol or prescribed pain medications as needed.
+- **Activities:** Walk, use stairs, shower, avoid heavy lifting for 1 week, resume sexual activity after 1 week, no driving while on pain medications.
+- **Follow-up:** LLE duplex and clinic visit in 3 weeks.
+- **When to Call:** Numbness, coldness, pain in extremities, fever >101.5°F, increased drainage, or severe bleeding.
+
+**Follow-up Instructions:**
+- [Redacted]
+--- END NOTE ---",
+045498," 
 Name:  ___               Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -32721,8 +34428,8 @@ ___
 - Discuss ongoing pain management with PCP.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Male,Medicine,,,Abdominal pain,"[Redacted]-year-old male with severe abdominal pain and black, loose stools. Pain rated 8/10, sharp, diffuse, most severe in the upper abdomen. Episodes of black stools and nausea without vomiting. History of heavy alcohol use and poor diet. Used Ibuprofen once a week prior to admission.",Anxiety,Sertraline 150 mg PO daily; Lorazepam 1 mg PO BID prn anxiety; Zolpidem 10 mg PO QHS prn insomnia; Proton pump inhibitor; Tylenol; Ultram,,medium,,
+249272," 
 Name:  ___                     Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -33206,8 +34913,8 @@ ___
 - Contact oncology team for any issues or questions.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,M,Medicine,,,Abnormal liver function tests (LFTs),"Patient with metastatic clear cell renal cell carcinoma (RCC) on sunitinib, admitted for abnormal LFTs found during routine screening. No significant symptoms except mild lethargy and episodes of confusion.",Metastatic clear cell RCC; Benign prostatic hypertrophy (BPH); Diabetes mellitus (T2DM); Hypertension (HTN); Hyperlipidemia (DL); History of anxiety,Enoxaparin Sodium 120 mg SC daily; Amlodipine 10 mg PO daily; Artificial Tears PRN; Ascorbic Acid daily; Atenolol 100 mg PO daily; Cariprazine 1.5 mg PO daily; Fluoxetine 20 mg PO daily; Gabapentin 100 mg PO daily; Glipizide 2.5 mg PO BID; Lantus Solostar U-100 Insulin; Levothyroxine Sodium 100 mcg PO daily; Lisinopril 40 mg PO daily; Lorazepam 0.5 mg PO PRN; Omeprazole 20 mg PO daily; Ondansetron 4 mg PO PRN; Prochlorperazine 5 mg PO PRN; Tamsulosin 0.4 mg PO QHS; Vitamin D 5000 UNIT PO daily; Held: Fenofibrate and Simvastatin,,medium,,
+224215," 
 Name:  ___                 Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -33445,8 +35152,60 @@ ___
 - **Discharge Diagnosis:** Not applicable
 - **Discharge Condition:** Not applicable
 - **Discharge Instructions:** Not applicable
-- **Follow-up Instructions:** Not applicable"
-" 
+- **Follow-up Instructions:** Not applicable",,Male,Medicine,,,Gastrointestinal Bleeding (GIB),"Male with history of alcohol cirrhosis, recurrent ascites, encephalopathy, and esophageal varices. Presented intoxicated with BRBPR and hematemesis. Stabilized with 2 units pRBCs; EGD performed with banding of 3 varices. Developed active hematemesis post-EGD, intubated, and transferred to MICU. Required multiple blood products and pressors due to active bleeding from multiple orifices.",alcohol cirrhosis; recurrent ascites; encephalopathy; esophageal varices,,,high,"--- NOTE ---
+**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Male
+- **Service:** Medicine
+- **Attending:** [Redacted]
+- **Allergies:** No Known Allergies/Adverse Drug Reactions
+
+**Admission and Discharge:**
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+
+**Chief Complaint:**
+- Gastrointestinal Bleeding (GIB)
+- Transferred to MICU for active GIB
+
+**Major Procedures:**
+- EGD with banding
+- TIPS
+
+**History of Present Illness:**
+- Male with history of alcohol cirrhosis, recurrent ascites, encephalopathy, and esophageal varices.
+- Presented intoxicated with BRBPR and hematemesis.
+- Stabilized with 2 units pRBCs; EGD performed with banding of 3 varices.
+- Developed active hematemesis post-EGD, intubated, and transferred to MICU.
+- Required multiple blood products and pressors due to active bleeding from multiple orifices.
+
+**Physical Exam on Admission:**
+- Intubated, sedated, blood in oropharynx, tachycardic, distended abdomen with caput medusae, warm extremities, trace edema, no response to painful stimuli.
+
+**Pertinent Results:**
+- Labs indicated severe coagulopathy, elevated liver enzymes, and metabolic acidosis.
+- Imaging showed successful TIPS placement, moderate ascites, and pleural effusions.
+
+**Brief Hospital Course:**
+- Patient with alcohol cirrhosis and esophageal varices presented with severe GIB.
+- Underwent EGD and TIPS; required extensive transfusions and pressors.
+- Developed DIC and multiorgan failure.
+- Expired despite resuscitation efforts.
+
+**Discharge Information:**
+- **Disposition:** Expired
+- **Medications on Admission:** None
+- **Discharge Medications:** Not applicable
+- **Discharge Diagnosis:** Not applicable
+- **Discharge Condition:** Not applicable
+- **Discharge Instructions:** Not applicable
+- **Follow-up Instructions:** Not applicable
+--- END NOTE ---",
+886022," 
 Name:  ___             Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -33673,8 +35432,8 @@ ___
 - Follow up with PCP after discharge
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Male,Medicine,,,Aspirin (ASA) overdose,"The patient, a [Redacted]-year-old male with a history of a previous suicide attempt, was transferred after ingesting 200 pills of ASA 325mg in a suicide attempt. Initial ASA level was 21.7, rising to 51, and then 105 upon arrival. Bicarb drip was initiated, and hemodialysis was performed.",Previous suicide attempt,,,high,,
+189896," 
 Name:  ___            Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -33862,8 +35621,8 @@ ___
 - Follow-up with outpatient care as instructed.
 
 **Follow-up Instructions:**
-- [Redacted]"
-" 
+- [Redacted]",,Female,Obstetrics/Gynecology,,,Vaginal bleeding,"G1P0 at 25 weeks with known posterior placenta previa, presenting with first episode of spotting. No contractions, loss of fluid, or decreased fetal movement.","No significant medical history; No surgical history; GynHx: History of LGSIL, no follow-up",Prenatal vitamins; Ranitidine 150 mg PO BID as needed for heartburn,,medium,,
+761811," 
 Name:  ___                  Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -34175,8 +35934,81 @@ ___
 - Call the [clinic] to set up an appointment for further tumor sampling if not contacted within 48 hours. 
 
 **Best wishes for your recovery.**
-- Your medical team"
-" 
+- Your medical team",,Male,Medicine,,,"Acute headache and fever, concerning for meningitis",,,TraZODone 50 mg PO QHS PRN insomnia; Citalopram 20 mg PO DAILY; Lisinopril 20 mg PO DAILY; Metoprolol Succinate XL 50 mg PO DAILY,,high,"--- NOTE ---
+**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Male
+- **Service:** Medicine
+- **Attending:** [Redacted]
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+
+**Allergies:**
+- No Known Allergies / Adverse Drug Reactions
+
+**Major Procedures:**
+- EGD
+- Colonoscopy with biopsy
+- Lumbar puncture
+
+**Pertinent Results:**
+- **Admission Labs:** Notable for anemia (HGB 8.4), low sodium (128), low chloride (95), low total CO2 (18), low ferritin (5.6), low vitamin D (17), and elevated CSF protein (100).
+- **Discharge Labs:** Persistent anemia (HGB 7.2), low calcium (8.2), and normal CEA (1.9).
+- **Imaging:** CT head without acute intracranial process.
+- **Colonoscopy:** Malignant-appearing circumferential mass in distal rectum.
+- **EGD:** Erythema in esophagus, antrum, and duodenum consistent with gastritis and duodenitis.
+
+**Hospital Course:**
+- **Admission Reason:** Acute headache and fever, concerning for meningitis.
+- **Diagnosis:** Viral meningitis (HSV), iron deficiency anemia, rectal cancer.
+- **Treatment:** Started on bacterial meningitis coverage, switched to acyclovir and doxycycline after CSF showed HSV PCR positive. Improved with treatment, transitioned to oral medications before discharge.
+- **Anemia Management:** Required 2 units of PRBC transfusion. GI consult led to EGD and colonoscopy, revealing rectal cancer. Follow-up arranged with colorectal surgery and GI for further management.
+
+**Medications on Admission:**
+1. TraZODone 50 mg PO QHS PRN insomnia
+2. Citalopram 20 mg PO DAILY
+3. Lisinopril 20 mg PO DAILY
+4. Metoprolol Succinate XL 50 mg PO DAILY
+
+**Discharge Medications:**
+1. Acetaminophen 1000 mg PO Q6H PRN pain/fever
+2. Doxycycline Hyclate 100 mg PO Q12H
+3. Pantoprazole 40 mg PO DAILY
+4. ValACYclovir 1000 mg PO TID
+5. Citalopram 20 mg PO DAILY
+6. Lisinopril 20 mg PO DAILY
+7. Metoprolol Succinate XL 50 mg PO DAILY
+8. TraZODone 50 mg PO QHS PRN insomnia
+
+**Discharge Disposition:**
+- Home
+
+**Discharge Diagnosis:**
+1. Viral meningitis (HSV)
+2. Iron deficiency anemia
+3. Rectal cancer
+
+**Discharge Condition:**
+- Stable for outpatient follow-up
+
+**Discharge Instructions:**
+- Continue Valtrex and doxycycline until [date] for viral meningitis.
+- Follow up with gastroenterology and colorectal cancer team as instructed.
+- Avoid ibuprofen, high-dose aspirin, and naproxen; take pantoprazole for stomach irritation.
+- Contact the GI clinic if no follow-up call within 48 hours.
+
+**Follow-up Instructions:**
+- Appointment with the multi-disciplinary colorectal cancer team has been set up.
+- Call the [clinic] to set up an appointment for further tumor sampling if not contacted within 48 hours. 
+
+**Best wishes for your recovery.**
+- Your medical team
+--- END NOTE ---",
+163028," 
 Name:  ___                 Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -34591,8 +36423,24 @@ ___
 - Start Keppra 750mg PO BID for seizure prophylaxis.
 - Take Ampicillin 500mg PO Q6H for UTI.
 - Take Tylenol PO Q6H PRN for pain.
-- Increase Metoprolol succinate to "
-" 
+- Increase Metoprolol succinate to ",,Male,Medicine,,,,"[Redacted] year-old male with a history of atrial fibrillation on [medication], transferred from [facility] with right frontal and temporal subdural hematomas (SDHs) and right occipital intraparenchymal hemorrhage (IPH) due to supratherapeutic INR. Symptoms began a month ago with confusion and a recent fall. No head injury or loss of consciousness reported. Initial labs showed INR 4.3, and imaging revealed SDHs and IPH. Treated with FFP and Vitamin K, transferred for neurosurgical evaluation.",Atrial fibrillation; Hypertension; Anemia; Osteoarthritis,Metoprolol succinate 25mg daily; Coumadin 3mg daily; Lasix 20mg daily,,high,"**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Redacted]
+- **Unit No:** [Redacted]
+- **DOB:** [Redacted]
+- **Sex:** Male
+- **Service:** Medicine
+- **Attending:** [Redacted]
+- **Admission Date:** [Redacted]
+- **Discharge Date:** [Redacted]
+
+**Allergies:**
+- No Known Allergies to Drugs
+
+**Chief Complaint:**
+- [Redacted]",
+620283," 
 Name:  ___             Unit No:   ___
  
 Admission Date:  ___              Discharge Date:   ___
@@ -34887,4 +36735,78 @@ ___
 - Admitted for post-colonoscopy bleeding, Hct stabilized, no further bleeding, tolerated regular diet. Follow up with PCP and gastroenterology.
 
 **Follow-up Instructions:**
-- ___"
+- ___",,Female,Medicine,,,Post-polypectomy bleed,"___ year old woman, post-colonoscopy and polypectomy, presented with rectal bleeding. Initial Hct dropped from 38.9 to 34.5, then improved to 37.8. No further bleeding observed during admission.",H. pylori; CAD; Hypertension,Multivitamins 1 TAB PO DAILY; Pravastatin 80 mg PO DAILY; Valsartan 80 mg PO DAILY; Vitamin D 1000 UNIT PO DAILY; Glucosamine 500 mg PO DAILY; Aspirin 81 mg PO DAILY; Metoprolol Succinate XL 25 mg PO DAILY,,medium,"**Discharge Summary**
+
+**Patient Information:**
+- **Name:** ___
+- **Unit No:** ___
+- **DOB:** ___
+- **Sex:** Female
+- **Service:** Medicine
+- **Attending:** ___
+
+**Admission and Discharge:**
+- **Admission Date:** ___
+- **Discharge Date:** ___
+
+**Chief Complaint:**
+- Post-polypectomy bleed
+
+**History of Present Illness:**
+- ___ year old woman, post-colonoscopy and polypectomy, presented with rectal bleeding. Initial Hct dropped from 38.9 to 34.5, then improved to 37.8. No further bleeding observed during admission.
+
+**Past Medical History:**
+- H. pylori, CAD, Hypertension
+
+**Family History:**
+- Father: CAD, abnormal prostate
+- Mother: Deceased from colon cancer
+
+**Physical Exam:**
+- **Admission and Discharge:** Stable vitals, NAD, AOx3, clear lungs, normal heart sounds, soft abdomen, no edema or skin issues.
+
+**Pertinent Results:**
+- **Admission Labs:** Hct fluctuated between 34.5 and 38.9
+- **Discharge Labs:** No new labs drawn
+
+**Hospital Course:**
+- Admitted for monitoring post-polypectomy bleed. No further bleeding, stable Hct, tolerated regular diet, and discharged home.
+
+**Active Issues:**
+1. **Rectal Bleeding/Hematocrit Drop:** Likely mild post-polypectomy bleed, resolved without intervention.
+2. **Hypertension:** Stable, follow-up with PCP.
+3. **Hyperlipidemia:** Continued pravastatin.
+4. **H. pylori:** Deferred Pylera treatment to outpatient.
+
+**Medications on Admission:**
+1. Metoprolol Succinate XL 25 mg PO DAILY
+2. Pravastatin 80 mg PO DAILY
+3. Valsartan 80 mg PO DAILY
+4. Aspirin 81 mg PO DAILY
+5. Vitamin D 1000 UNIT PO DAILY
+6. Glucosamine 500 mg PO DAILY
+7. Multivitamins 1 TAB PO DAILY
+
+**Discharge Medications:**
+1. Multivitamins 1 TAB PO DAILY
+2. Pravastatin 80 mg PO DAILY
+3. Valsartan 80 mg PO DAILY
+4. Vitamin D 1000 UNIT PO DAILY
+5. Glucosamine 500 mg PO DAILY
+6. Aspirin 81 mg PO DAILY (hold for ___ days)
+7. Metoprolol Succinate XL 25 mg PO DAILY (discuss with PCP)
+
+**Discharge Disposition:**
+- Home
+
+**Discharge Diagnosis:**
+- Post-polypectomy bleed
+
+**Discharge Condition:**
+- Clear mental status, alert, and ambulatory.
+
+**Discharge Instructions:**
+- Admitted for post-colonoscopy bleeding, Hct stabilized, no further bleeding, tolerated regular diet. Follow up with PCP and gastroenterology.
+
+**Follow-up Instructions:**
+- ___",

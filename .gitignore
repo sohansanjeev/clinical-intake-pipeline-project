@@ -1,3 +1,8 @@
 **/.codewhale/*
 !**/.codewhale/constitution.json
 .deepseek/
+.env
+dev/
+__pycache__/
+.pytest_cache/
+*.pyc

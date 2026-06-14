@@ -150,6 +150,6 @@ Extraction quality was manually reviewed on 10 rows from `data/sample.csv`
 | Allergies    | 9/10     | 1 miss (omeprazole)                  |
 
 Exploratory analysis plots generated from the 100-row output are available in
-[`plots/`](plots/). These include triage distribution, triage by service,
+[`plots/`](plots/?v=2). These include triage distribution, triage by service,
 sex distribution, top complaints, top medications, top conditions, triage by
 sex, and service volume.
